@@ -8,30 +8,30 @@
   "matchups": [
     {
       "winner": { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "1-0", "points": 161.66 },
-      "loser":  { "team": "Bang average", "manager": "", "record": "0-1", "points": 135.46 },
+      "loser":  { "team": "Bang average", "manager": "Josh Horton", "record": "0-1", "points": 135.46 },
       "recap": "Game of the Week, and it wasn't close. A league-high 161.66. The backfield of Ashton Jeanty (32.7) and D'Andre Swift (32.4) ran like they owed somebody money, and Jaxon Smith-Njigba (26.2) was open all afternoon. Bang average got a bell-cow game from Kenneth Walker III (34.1), but Jaylen Waddle (1.2) and George Kittle (3.2) showed up in invisibility cloaks.",
       "trashTalk": "You averaged 135 and still lost by 26. That's not 'bang average,' son — that's 'bring a bigger gun.' Waddle put up 1.2; I've seen more production out of the Gatorade table.",
       "studs": ["Ashton Jeanty 32.7", "D'Andre Swift 32.4", "Kenneth Walker III 34.1", "Jaxon Smith-Njigba 26.2"],
       "duds": ["Jaylen Waddle 1.2", "George Kittle 3.2"]
     },
     {
-      "winner": { "team": "Mauled by the Panthers", "manager": "", "record": "1-0", "points": 135.26 },
-      "loser":  { "team": "Kelce's Wildest Dream Team", "manager": "", "record": "0-1", "points": 118.1 },
+      "winner": { "team": "Mauled by the Panthers", "manager": "Paul Anderson", "record": "1-0", "points": 135.26 },
+      "loser":  { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "0-1", "points": 118.1 },
       "recap": "Lamar Jackson (24.96) and Amon-Ra St. Brown (28.7) did the heavy lifting, with Chase Brown and Javonte Williams chipping in a combined 43. Kelce's Dream Team got a monster from Jahmyr Gibbs (33.6) and Chris Olave (28.2), but Matthew Stafford (4.1) and a 0.0 from TE Colston Loveland turned the dream into a fever nap.",
       "trashTalk": "You built a 'Dream Team' and forgot the part where the players score points. Two guys go for 60-plus and the rest napped. That's not a dream, that's a bye week.",
       "studs": ["Lamar Jackson 24.96", "Amon-Ra St. Brown 28.7", "Jahmyr Gibbs 33.6", "Chris Olave 28.2"],
       "duds": ["Matthew Stafford 4.1", "Colston Loveland 0.0"]
     },
     {
-      "winner": { "team": "AllInTheTush", "manager": "", "record": "1-0", "points": 139.82 },
-      "loser":  { "team": "Champ 🏆", "manager": "", "record": "0-1", "points": 130.76 },
+      "winner": { "team": "AllInTheTush", "manager": "William Smith", "record": "1-0", "points": 139.82 },
+      "loser":  { "team": "Champ 🏆", "manager": "Tom Needham", "record": "0-1", "points": 130.76 },
       "recap": "The heavyweight fight of the week. Balance from Bijan Robinson (31.3), Zay Flowers (26.0) and a clean Jalen Hurts (24.72) — nobody under 5 in the lineup. 'Champ' nearly backed up the name behind Josh Allen's absurd 35.66 and Justin Jefferson (31.2) — 67 from two guys! — but J.K. Dobbins (3.6) and a 2.0 from Brandon Aubrey left just enough on the table.",
       "trashTalk": "Hey Champ — putting the trophy in your name doesn't win the trophy. Got 67 from two studs and still couldn't close. All hat, no cattle. Keep the emoji, fix the roster.",
       "studs": ["Bijan Robinson 31.3", "Zay Flowers 26.0", "Jalen Hurts 24.72", "Josh Allen 35.66", "Justin Jefferson 31.2"],
       "duds": ["J.K. Dobbins 3.6", "Brandon Aubrey 2.0"]
     },
     {
-      "winner": { "team": "Sun God Eclipsed", "manager": "", "record": "1-0", "points": 156.1 },
+      "winner": { "team": "Sun God Eclipsed", "manager": "Matt Thomas", "record": "1-0", "points": 156.1 },
       "loser":  { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "0-1", "points": 103.96 },
       "recap": "Sun God Eclipsed eclipsed the field with 156.1, riding a breakout from Christian Watson (32.7), David Montgomery (28.9) out of the FLEX, and Trevor Lawrence (26.1). Now the tragedy of the week: 'Cracked Out Uncle' scored 103.96 while leaving Isaiah Likely (27.8) and Chuba Hubbard (23.7) STAPLED to the bench — 51.5 points on the couch. Started Chargers D/ST (0.0) and Cameron Dicker (2.0) instead.",
       "trashTalk": "Uncle, I've never — NEVER — seen a man punt 51 points into his own bench. Likely and Hubbard were begging to play. Lay off whatever you're cracked out on and set your lineup, pal.",
@@ -40,7 +40,7 @@
     },
     {
       "winner": { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "1-0", "points": 120.82 },
-      "loser":  { "team": "Major Tuddy", "manager": "", "record": "0-1", "points": 106.6 },
+      "loser":  { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "0-1", "points": 106.6 },
       "recap": "Lowest-scoring affair of the week, but a W's a W. Carried by Derrick Henry's monstrous 35.3 and Trey McBride (24.5). Fittingly quiet elsewhere — Ja'Marr Chase (3.2) went silent. Major Tuddy got tidy lines from CeeDee Lamb (15.4) and Breece Hall (19.8), but the Texans D/ST posted a MINUS 4.0. Yes, negative.",
       "trashTalk": "Major Tuddy, your defense scored negative four. That's not defense, that's a hostage situation. That mascot cost you the game single-handedly.",
       "studs": ["Derrick Henry 35.3", "Trey McBride 24.5", "Breece Hall 19.8", "CeeDee Lamb 15.4"],
