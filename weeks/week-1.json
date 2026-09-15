@@ -1,0 +1,76 @@
+{
+  "week": 1,
+  "title": "The Reinebold Report",
+  "subtitle": "\"Football is a game of leverage, angles, and finding the man who forgot to start his running back.\"",
+  "tagline": "Week 1 — The Recap Nobody Asked For",
+  "author": "Jeff Reinebold",
+  "lede": "Well folks, pull up a folding chair. Week 1 is like the first day of training camp in the rain — everybody thinks they're a champion until the whistle blows and somebody's tight end lays an egg. We had fireworks, faceplants, and a man who left 51 points on his bench like loose change in a gas station parking lot. Grab a coffee. Reinebold's got the tape.",
+  "matchups": [
+    {
+      "winner": { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "1-0", "points": 161.66 },
+      "loser":  { "team": "Bang average", "manager": "", "record": "0-1", "points": 135.46 },
+      "recap": "Game of the Week, and it wasn't close. A league-high 161.66. The backfield of Ashton Jeanty (32.7) and D'Andre Swift (32.4) ran like they owed somebody money, and Jaxon Smith-Njigba (26.2) was open all afternoon. Bang average got a bell-cow game from Kenneth Walker III (34.1), but Jaylen Waddle (1.2) and George Kittle (3.2) showed up in invisibility cloaks.",
+      "trashTalk": "You averaged 135 and still lost by 26. That's not 'bang average,' son — that's 'bring a bigger gun.' Waddle put up 1.2; I've seen more production out of the Gatorade table.",
+      "studs": ["Ashton Jeanty 32.7", "D'Andre Swift 32.4", "Kenneth Walker III 34.1", "Jaxon Smith-Njigba 26.2"],
+      "duds": ["Jaylen Waddle 1.2", "George Kittle 3.2"]
+    },
+    {
+      "winner": { "team": "Mauled by the Panthers", "manager": "", "record": "1-0", "points": 135.26 },
+      "loser":  { "team": "Kelce's Wildest Dream Team", "manager": "", "record": "0-1", "points": 118.1 },
+      "recap": "Lamar Jackson (24.96) and Amon-Ra St. Brown (28.7) did the heavy lifting, with Chase Brown and Javonte Williams chipping in a combined 43. Kelce's Dream Team got a monster from Jahmyr Gibbs (33.6) and Chris Olave (28.2), but Matthew Stafford (4.1) and a 0.0 from TE Colston Loveland turned the dream into a fever nap.",
+      "trashTalk": "You built a 'Dream Team' and forgot the part where the players score points. Two guys go for 60-plus and the rest napped. That's not a dream, that's a bye week.",
+      "studs": ["Lamar Jackson 24.96", "Amon-Ra St. Brown 28.7", "Jahmyr Gibbs 33.6", "Chris Olave 28.2"],
+      "duds": ["Matthew Stafford 4.1", "Colston Loveland 0.0"]
+    },
+    {
+      "winner": { "team": "AllInTheTush", "manager": "", "record": "1-0", "points": 139.82 },
+      "loser":  { "team": "Champ 🏆", "manager": "", "record": "0-1", "points": 130.76 },
+      "recap": "The heavyweight fight of the week. Balance from Bijan Robinson (31.3), Zay Flowers (26.0) and a clean Jalen Hurts (24.72) — nobody under 5 in the lineup. 'Champ' nearly backed up the name behind Josh Allen's absurd 35.66 and Justin Jefferson (31.2) — 67 from two guys! — but J.K. Dobbins (3.6) and a 2.0 from Brandon Aubrey left just enough on the table.",
+      "trashTalk": "Hey Champ — putting the trophy in your name doesn't win the trophy. Got 67 from two studs and still couldn't close. All hat, no cattle. Keep the emoji, fix the roster.",
+      "studs": ["Bijan Robinson 31.3", "Zay Flowers 26.0", "Jalen Hurts 24.72", "Josh Allen 35.66", "Justin Jefferson 31.2"],
+      "duds": ["J.K. Dobbins 3.6", "Brandon Aubrey 2.0"]
+    },
+    {
+      "winner": { "team": "Sun God Eclipsed", "manager": "", "record": "1-0", "points": 156.1 },
+      "loser":  { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "0-1", "points": 103.96 },
+      "recap": "Sun God Eclipsed eclipsed the field with 156.1, riding a breakout from Christian Watson (32.7), David Montgomery (28.9) out of the FLEX, and Trevor Lawrence (26.1). Now the tragedy of the week: 'Cracked Out Uncle' scored 103.96 while leaving Isaiah Likely (27.8) and Chuba Hubbard (23.7) STAPLED to the bench — 51.5 points on the couch. Started Chargers D/ST (0.0) and Cameron Dicker (2.0) instead.",
+      "trashTalk": "Uncle, I've never — NEVER — seen a man punt 51 points into his own bench. Likely and Hubbard were begging to play. Lay off whatever you're cracked out on and set your lineup, pal.",
+      "studs": ["Christian Watson 32.7", "David Montgomery 28.9", "Trevor Lawrence 26.1"],
+      "duds": ["Chargers D/ST 0.0", "Cameron Dicker 2.0", "Benched: Likely 27.8", "Benched: Hubbard 23.7"]
+    },
+    {
+      "winner": { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "1-0", "points": 120.82 },
+      "loser":  { "team": "Major Tuddy", "manager": "", "record": "0-1", "points": 106.6 },
+      "recap": "Lowest-scoring affair of the week, but a W's a W. Carried by Derrick Henry's monstrous 35.3 and Trey McBride (24.5). Fittingly quiet elsewhere — Ja'Marr Chase (3.2) went silent. Major Tuddy got tidy lines from CeeDee Lamb (15.4) and Breece Hall (19.8), but the Texans D/ST posted a MINUS 4.0. Yes, negative.",
+      "trashTalk": "Major Tuddy, your defense scored negative four. That's not defense, that's a hostage situation. That mascot cost you the game single-handedly.",
+      "studs": ["Derrick Henry 35.3", "Trey McBride 24.5", "Breece Hall 19.8", "CeeDee Lamb 15.4"],
+      "duds": ["Ja'Marr Chase 3.2", "Texans D/ST -4.0"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Josh Allen — 35.66", "note": "Champ's QB threw the roof off. Wasted in a loss." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "Derrick Henry — 35.3", "note": "King Henry ran downhill into next Tuesday." },
+    { "icon": "💤", "label": "Bust of the Week", "value": "Jaylen Waddle — 1.2", "note": "A FLEX starter worth less than a coin flip." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "Cracked Out Uncle", "note": "Benched Likely (27.8) & Hubbard (23.7). Lost by 52." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Texans D/ST — −4.0", "note": "A defense that played FOR the other team." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Christian Watson — 32.7", "note": "Sun God's secret weapon torched the field." }
+  ],
+  "momentOfWeek": {
+    "text": "Ben 'Cracked Out Uncle' Lawton leaving 51.5 points on his bench in a game he lost by 52.14. Play Likely and Hubbard and it's a nailbiter. Instead it's the beating of the week — and the most Reinebold-approved teachable moment I've got. Set. Your. Lineup.",
+    "attribution": "— from the film room, Coach Reinebold"
+  },
+  "powerRankings": [
+    { "rank": 1,  "team": "Questionable or Kicked",       "points": 161.66, "record": "1-0", "take": "League-best score. Nothing questionable here." },
+    { "rank": 2,  "team": "Sun God Eclipsed",             "points": 156.10, "record": "1-0", "take": "Depth for days. Sun's out, guns out." },
+    { "rank": 3,  "team": "AllInTheTush",                 "points": 139.82, "record": "1-0", "take": "Balanced and mean. A quiet contender." },
+    { "rank": 4,  "team": "Mauled by the Panthers",       "points": 135.26, "record": "1-0", "take": "Lamar + St. Brown. Legit." },
+    { "rank": 5,  "team": "Bang average",                 "points": 135.46, "record": "0-1", "take": "Scored 4th-most, went 0-1. Brutal draw." },
+    { "rank": 6,  "team": "Champ 🏆",                     "points": 130.76, "record": "0-1", "take": "Top-heavy. Fix the bottom of the lineup." },
+    { "rank": 7,  "team": "Silence of the CeeDee Lambs",  "points": 120.82, "record": "1-0", "take": "Won ugly. Henry carried the whole barn." },
+    { "rank": 8,  "team": "Kelce's Wildest Dream Team",   "points": 118.10, "record": "0-1", "take": "Two studs, eight ghosts." },
+    { "rank": 9,  "team": "Major Tuddy",                  "points": 106.60, "record": "0-1", "take": "The defense cost you. Literally negative." },
+    { "rank": 10, "team": "Cracked Out Uncle",            "points": 103.96, "record": "0-1", "take": "Benched a title. See you at lineup school." }
+  ],
+  "lastWord": "That's Week 1, gang. We learned Josh Allen is still Josh Allen, a defense can score negative points, and the fastest way to lose is to out-think your own bench. Set your lineups, trust your studs, and for the love of all that is holy, Uncle — start the guys who score. Reinebold out.",
+  "footerTagline": "\"Effort is free. So is checking your lineup.\""
+}
