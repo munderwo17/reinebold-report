@@ -22,14 +22,24 @@
   .lede{font-size:clamp(1rem,3.6vw,1.15rem);border-left:5px solid var(--blood);padding:6px 0 6px 16px;margin-bottom:28px;font-style:italic;color:#2a2a2a;}
   h2.section{font-family:"Arial Black",Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;font-size:clamp(1.05rem,4.5vw,1.35rem);margin:34px 0 16px;padding-bottom:8px;border-bottom:3px solid var(--gold);display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
   h2.section .num{background:var(--blood);color:#fff;font-size:.85rem;padding:3px 10px;border-radius:20px;}
+
+  /* ===== Matchup / scorecard ===== */
   .game{background:#fff;border:1px solid #e0d7c2;border-radius:8px;margin-bottom:22px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.08);}
-  .score{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;background:linear-gradient(90deg,#123c2b,#1c5a41);color:#fff;padding:16px clamp(14px,4vw,20px);}
-  .score .team{font-weight:bold;font-size:clamp(.95rem,3.6vw,1.05rem);flex:1 1 45%;}
-  .score .team small{display:block;font-weight:normal;opacity:.75;font-size:.72rem;font-style:italic;}
-  .score .vs{color:var(--gold);font-style:italic;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;}
-  .score .r{text-align:right;}
-  .score .pts{font-size:clamp(1.4rem,6vw,2rem);font-family:"Arial Black",Arial,sans-serif;display:inline-block;}
-  .win{color:var(--gold);} .win::after{content:" \1F3C6";}
+  .scorecard{background:linear-gradient(135deg,#123c2b,#1c5a41);color:#fff;padding:clamp(10px,2.5vw,14px) clamp(12px,3.5vw,18px);}
+  .side{display:flex;align-items:center;gap:12px;padding:10px 0;}
+  .side + .side{border-top:1px solid rgba(255,255,255,.14);}
+  .side .badge{flex:0 0 auto;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:"Arial Black",Arial,sans-serif;font-size:.8rem;}
+  .side.winner .badge{background:var(--gold);color:var(--ink);}
+  .side.loser .badge{background:rgba(255,255,255,.15);color:#cdd8d1;}
+  .side .info{flex:1 1 auto;min-width:0;}
+  .side .tname{font-weight:bold;font-size:clamp(1rem,4vw,1.15rem);line-height:1.15;}
+  .side .mgr{font-style:italic;font-size:.75rem;opacity:.72;}
+  .side .num{flex:0 0 auto;text-align:right;font-family:"Arial Black",Arial,sans-serif;font-size:clamp(1.35rem,6vw,1.9rem);letter-spacing:-.02em;}
+  .side.winner{position:relative;}
+  .side.winner .tname{color:var(--gold);}
+  .side.loser{opacity:.9;}
+  .margin{background:#0d2c20;color:#bfe3cf;font-family:Arial,sans-serif;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;text-align:center;padding:5px 10px;}
+
   .recap{padding:16px clamp(16px,4vw,22px);} .recap p{margin-bottom:10px;}
   .tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;}
   .tag{font-family:Arial,sans-serif;font-size:.72rem;padding:3px 9px;border-radius:14px;}
@@ -76,20 +86,43 @@
 
 <script>
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const num = n => Number(n).toFixed(1).replace(/\.0$/,'.0'); // keep one decimal for display
+
+function sideRow(t, isWinner){
+  const mgr = (t.manager && String(t.manager).trim()) ? esc(t.manager) : 'Manager TBD';
+  const rec = t.record ? esc(t.record) : '';
+  const sub = [mgr, rec].filter(Boolean).join(' &nbsp;•&nbsp; ');
+  return `<div class="side ${isWinner ? 'winner' : 'loser'}">
+      <div class="badge">${isWinner ? 'W' : 'L'}</div>
+      <div class="info">
+        <div class="tname">${esc(t.team)}</div>
+        <div class="mgr">${sub}</div>
+      </div>
+      <div class="num">${esc(Number(t.points).toFixed(2))}</div>
+    </div>`;
+}
+
+function scorecard(m){
+  const margin = (Number(m.winner.points) - Number(m.loser.points));
+  const marginTxt = margin.toFixed(2);
+  return `<div class="scorecard">
+      ${sideRow(m.winner, true)}
+      ${sideRow(m.loser, false)}
+    </div>
+    <div class="margin">${esc(m.winner.team)} wins by ${esc(marginTxt)}</div>`;
+}
 
 async function loadManifest(){
   try { const r = await fetch('weeks/manifest.json',{cache:'no-store'}); if(r.ok) return await r.json(); }
   catch(e){}
   return null;
 }
-
 function pickWeek(manifest){
   const q = new URLSearchParams(location.search).get('week');
   if (q) return parseInt(q,10);
   if (manifest && manifest.latest) return manifest.latest;
   return 1;
 }
-
 async function main(){
   const manifest = await loadManifest();
   const wk = pickWeek(manifest);
@@ -106,7 +139,6 @@ async function main(){
   render(data, manifest, wk);
   document.title = `${data.title} — Week ${data.week}`;
 }
-
 function weekPicker(manifest, current){
   if(!manifest || !manifest.weeks || manifest.weeks.length < 2) return '';
   const opts = manifest.weeks.map(w =>
@@ -119,12 +151,7 @@ function render(d, manifest, wk){
     const studs = (m.studs||[]).map(s=>`<span class="tag stud">${esc(s)}</span>`).join('');
     const duds  = (m.duds||[]).map(s=>`<span class="tag dud">${esc(s)}</span>`).join('');
     return `<div class="game">
-      <div class="score">
-        <div class="team win">${esc(m.winner.team)}<small>${esc([m.winner.manager,m.winner.record].filter(Boolean).join(' • '))}</small></div>
-        <div class="vs">def.</div>
-        <div class="team r">${esc(m.loser.team)}<br>
-          <span class="pts win">${esc(m.winner.points)}</span> <span class="pts">– ${esc(m.loser.points)}</span></div>
-      </div>
+      ${scorecard(m)}
       <div class="recap">
         <p>${esc(m.recap)}</p>
         ${(studs||duds)?`<div class="tags">${studs}${duds}</div>`:''}
