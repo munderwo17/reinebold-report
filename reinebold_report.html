@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Reinebold Report — Week 1</title>
+<style>
+  :root{
+    --ink:#0b1d2a; --paper:#f4efe1; --gold:#c9a227; --blood:#8f2d2d;
+    --turf:#123c2b; --chalk:#f7f4ea; --steel:#2b4b63;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:"Georgia","Times New Roman",serif;
+    background:
+      radial-gradient(circle at 20% 0%, rgba(201,162,39,.10), transparent 40%),
+      linear-gradient(160deg,#0b1d2a 0%, #123c2b 100%);
+    color:var(--ink); line-height:1.6; padding:24px;
+  }
+  .page{max-width:960px;margin:0 auto;background:var(--paper);
+    box-shadow:0 30px 80px rgba(0,0,0,.55);border-radius:6px;overflow:hidden;
+    border:1px solid rgba(0,0,0,.2);}
+  /* ===== Masthead ===== */
+  header{
+    background:linear-gradient(135deg,var(--ink),var(--steel));
+    color:var(--chalk);padding:38px 40px 30px;position:relative;
+    border-bottom:6px solid var(--gold);
+  }
+  header .kicker{letter-spacing:.5em;text-transform:uppercase;font-size:.7rem;
+    color:var(--gold);font-family:"Arial Black",Arial,sans-serif;font-weight:800;}
+  header h1{font-size:3.4rem;line-height:1;margin:.15em 0;font-weight:900;
+    text-shadow:2px 2px 0 rgba(0,0,0,.35);}
+  header h1 span{color:var(--gold);}
+  header .sub{font-style:italic;opacity:.9;font-size:1.05rem;}
+  header .byline{margin-top:14px;font-size:.85rem;letter-spacing:.08em;
+    border-top:1px dashed rgba(255,255,255,.3);padding-top:10px;display:flex;
+    justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  header .byline b{color:var(--gold);}
+  .hairnet{position:absolute;top:20px;right:34px;font-size:2.4rem;opacity:.15;}
+  /* ===== Body ===== */
+  .content{padding:34px 40px 46px;}
+  .lede{font-size:1.15rem;border-left:5px solid var(--blood);
+    padding:6px 0 6px 18px;margin-bottom:28px;font-style:italic;color:#2a2a2a;}
+  h2.section{font-family:"Arial Black",Arial,sans-serif;text-transform:uppercase;
+    letter-spacing:.06em;font-size:1.35rem;color:var(--ink);margin:38px 0 16px;
+    padding-bottom:8px;border-bottom:3px solid var(--gold);display:flex;
+    align-items:center;gap:10px;}
+  h2.section .num{background:var(--blood);color:#fff;font-size:.9rem;
+    padding:3px 10px;border-radius:20px;}
+  /* ===== Game cards ===== */
+  .game{background:#fff;border:1px solid #e0d7c2;border-radius:8px;
+    margin-bottom:26px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.08);}
+  .score{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;
+    background:linear-gradient(90deg,#123c2b,#1c5a41);color:#fff;padding:16px 20px;}
+  .score .team{font-weight:bold;font-size:1.05rem;}
+  .score .team small{display:block;font-weight:normal;opacity:.75;font-size:.75rem;
+    font-style:italic;}
+  .score .r{text-align:right;}
+  .score .pts{font-size:2rem;font-family:"Arial Black",Arial,sans-serif;}
+  .score .vs{padding:0 14px;color:var(--gold);font-style:italic;font-size:.8rem;}
+  .win{color:var(--gold);}
+  .win::after{content:" \1F3C6";}
+  .recap{padding:18px 22px;}
+  .recap p{margin-bottom:10px;}
+  .talk{background:#fbf6e7;border:1px dashed var(--blood);border-radius:6px;
+    padding:12px 16px;margin-top:12px;font-style:italic;color:var(--blood);
+    position:relative;}
+  .talk::before{content:"\1F5E3 TRASH TALK";font-family:Arial,sans-serif;
+    font-style:normal;font-weight:800;font-size:.65rem;letter-spacing:.15em;
+    color:var(--blood);display:block;margin-bottom:4px;opacity:.8;}
+  .stud{color:var(--turf);font-weight:bold;}
+  .dud{color:var(--blood);font-weight:bold;}
+  /* ===== Award boxes ===== */
+  .awards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:16px;}
+  .award{background:#fff;border-top:5px solid var(--gold);border-radius:6px;
+    padding:16px 18px;box-shadow:0 4px 12px rgba(0,0,0,.08);}
+  .award h3{font-family:Arial,sans-serif;font-size:.75rem;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--blood);margin-bottom:6px;}
+  .award .big{font-size:1.15rem;font-weight:bold;color:var(--ink);}
+  .award .small{font-size:.85rem;color:#555;font-style:italic;}
+  /* ===== Power rankings ===== */
+  table.power{width:100%;border-collapse:collapse;background:#fff;border-radius:6px;
+    overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.08);}
+  table.power th{background:var(--ink);color:var(--gold);font-family:Arial,sans-serif;
+    font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:10px 12px;
+    text-align:left;}
+  table.power td{padding:10px 12px;border-bottom:1px solid #eee;font-size:.95rem;}
+  table.power tr:last-child td{border-bottom:none;}
+  table.power tr:nth-child(even) td{background:#faf7ee;}
+  .rank{font-family:"Arial Black",Arial,sans-serif;color:var(--blood);}
+  .rec{font-size:.8rem;color:#777;}
+  /* ===== Reinebold-ism sidebar ===== */
+  .quotebox{background:var(--ink);color:var(--chalk);padding:24px 28px;
+    border-radius:8px;margin:32px 0;position:relative;border-left:6px solid var(--gold);}
+  .quotebox p{font-style:italic;font-size:1.1rem;}
+  .quotebox .attr{margin-top:10px;text-align:right;color:var(--gold);
+    font-family:Arial,sans-serif;font-size:.8rem;letter-spacing:.1em;}
+  footer{background:var(--ink);color:#9fb0bd;padding:24px 40px;font-size:.8rem;
+    text-align:center;border-top:6px solid var(--gold);}
+  footer b{color:var(--gold);}
+  .disclaimer{font-size:.68rem;opacity:.6;margin-top:8px;font-style:italic;}
+  @media (max-width:560px){
+    header h1{font-size:2.2rem;} .content{padding:22px;}
+    .score{grid-template-columns:1fr;text-align:center;gap:6px;}
+    .score .r{text-align:center;} .score .vs{padding:4px 0;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="hairnet">🥅</div>
+    <div class="kicker">The Jeff Reinebowl &bull; Est. Kickoff</div>
+    <h1>The <span>Reinebold</span> Report</h1>
+    <p class="sub">"Football is a game of leverage, angles, and finding the man who forgot to start his running back."</p>
+    <div class="byline">
+      <span>WEEK 1 &nbsp;|&nbsp; The Recap Nobody Asked For</span>
+      <span>By <b>Jeff Reinebold</b>, Special Teams Coordinator of the Heart</span>
+    </div>
+  </header>
+
+  <div class="content">
+
+    <p class="lede">
+      Well folks, pull up a folding chair and let me tell you something — Week 1 is like the
+      first day of training camp in the rain. Everybody thinks they're a champion until the
+      whistle blows and somebody's tight end lays an egg. We had fireworks, we had faceplants,
+      and we had a man leave 51 points on his bench like loose change in a gas station parking lot.
+      Grab a coffee. Reinebold's got the tape.
+    </p>
+
+    <!-- ================= GAMES ================= -->
+    <h2 class="section"><span class="num">01</span>The Games</h2>
+
+    <!-- Game 1 -->
+    <div class="game">
+      <div class="score">
+        <div class="team win">Questionable or Kicked <small>Liam Towers &bull; 1-0</small></div>
+        <div class="vs">defeats</div>
+        <div class="team r">Bang average <span class="pts win">161.66</span> <span class="pts">– 135.46</span></div>
+      </div>
+      <div class="recap">
+        <p><b>Game of the Week, and it wasn't close.</b> "Questionable or Kicked" dropped a
+        league-high <b>161.66</b> and honestly the name is false advertising — nothing questionable
+        about it. The backfield of <span class="stud">Ashton Jeanty (32.7)</span> and
+        <span class="stud">D'Andre Swift (32.4)</span> ran like they owed somebody money, and
+        <span class="stud">Jaxon Smith-Njigba (26.2)</span> was open all afternoon.</p>
+        <p>Bang average lived up to the billing — 135 is a fine score most weeks, and
+        <span class="stud">Kenneth Walker III (34.1)</span> was an absolute bell cow. But
+        <span class="dud">Jaylen Waddle (1.2)</span> and <span class="dud">George Kittle (3.2)</span>
+        showed up wearing invisibility cloaks.</p>
+        <div class="talk">You averaged 135 and still lost by 26. That's not "bang average,"
+        son — that's "bring a bigger gun." Waddle put up 1.2 points; I've seen more production
+        out of the Gatorade table.</div>
+      </div>
+    </div>
+
+    <!-- Game 2 -->
+    <div class="game">
+      <div class="score">
+        <div class="team win">Mauled by the Panthers <small>1-0</small></div>
+        <div class="vs">defeats</div>
+        <div class="team r">Kelce's Wildest Dream Team <span class="pts win">135.26</span> <span class="pts">– 118.1</span></div>
+      </div>
+      <div class="recap">
+        <p><span class="stud">Lamar Jackson (24.96)</span> and
+        <span class="stud">Amon-Ra St. Brown (28.7)</span> did the heavy lifting for a squad
+        whose name suggests they've suffered enough. Chase Brown and Javonte Williams chipped in
+        a combined 43 — that's a balanced diet, folks.</p>
+        <p>Kelce's Dream Team got a monster from <span class="stud">Jahmyr Gibbs (33.6)</span> and
+        <span class="stud">Chris Olave (28.2)</span>, but the dream turned into a fever nightmare
+        everywhere else. <span class="dud">Matthew Stafford (4.1)</span> at QB and a
+        <span class="dud">0.0 from tight end Colston Loveland</span> — you named the team after Kelce
+        and then didn't even start a productive tight end. The irony writes itself.</p>
+        <div class="talk">You built a "Dream Team" and forgot the part where the players score
+        points. Two guys go for 60-plus and the rest of your roster showed up like it was a bye week.
+        That's not a dream, that's a nap.</div>
+      </div>
+    </div>
+
+    <!-- Game 3 -->
+    <div class="game">
+      <div class="score">
+        <div class="team win">AllInTheTush <small>1-0</small></div>
+        <div class="vs">defeats</div>
+        <div class="team r">Champ 🏆 <span class="pts win">139.82</span> <span class="pts">– 130.76</span></div>
+      </div>
+      <div class="recap">
+        <p>The heavyweight fight of the week. "AllInTheTush" got a balanced beatdown led by
+        <span class="stud">Bijan Robinson (31.3)</span>, <span class="stud">Zay Flowers (26.0)</span>,
+        and a clean <span class="stud">Jalen Hurts (24.72)</span>. No single hero — just nobody
+        under 5 in the lineup. That's how you win a slugfest.</p>
+        <p>"Champ" nearly backed up the name on the strength of
+        <span class="stud">Josh Allen's absurd 35.66</span> and
+        <span class="stud">Justin Jefferson (31.2)</span> — 67 points from two guys! — but the
+        supporting cast folded. <span class="dud">J.K. Dobbins (3.6)</span> and a
+        <span class="dud">2.0 from kicker Brandon Aubrey</span> left just enough on the table.</p>
+        <div class="talk">Hey Champ — putting the trophy in your name doesn't win the trophy.
+        You got 67 from two studs and still couldn't close. In this league we call that
+        "all hat, no cattle." Adjust the roster, keep the emoji.</div>
+      </div>
+    </div>
+
+    <!-- Game 4 -->
+    <div class="game">
+      <div class="score">
+        <div class="team win">Sun God Eclipsed <small>1-0</small></div>
+        <div class="vs">defeats</div>
+        <div class="team r">Cracked Out Uncle <span class="pts win">156.1</span> <span class="pts">– 103.96</span></div>
+      </div>
+      <div class="recap">
+        <p>"Sun God Eclipsed" absolutely eclipsed the field with 156.1, riding a shocking
+        breakout from <span class="stud">Christian Watson (32.7)</span>,
+        <span class="stud">David Montgomery (28.9)</span> out of the FLEX, and
+        <span class="stud">Trevor Lawrence (26.1)</span>. When your third and fourth options go
+        nuclear, the light's out for everybody else.</p>
+        <p>And now, the tragedy of the week. Ben Lawton's "Cracked Out Uncle" scored 103.96 —
+        while leaving <span class="dud">Isaiah Likely (27.8)</span> and
+        <span class="dud">Chuba Hubbard (23.7)</span> STAPLED to the bench. That's <b>51.5 points</b>
+        of production watching from the couch. Started <span class="dud">Chargers D/ST for 0.0</span>
+        and <span class="dud">Cameron Dicker for 2.0</span> instead. Oh, Uncle.</p>
+        <div class="talk">Uncle, I've coached a lot of special teams and I have never — NEVER —
+        seen a man punt 51 points into his own bench. Likely and Hubbard were begging to play and you
+        left 'em in the garage. Lay off whatever you're cracked out on and set your lineup, pal.</div>
+      </div>
+    </div>
+
+    <!-- Game 5 -->
+    <div class="game">
+      <div class="score">
+        <div class="team win">Silence of the CeeDee Lambs <small>Alex Farnell &bull; 1-0</small></div>
+        <div class="vs">defeats</div>
+        <div class="team r">Major Tuddy <span class="pts win">120.82</span> <span class="pts">– 106.6</span></div>
+      </div>
+      <div class="recap">
+        <p>The lowest-scoring affair of the week, but a W's a W. "Silence of the CeeDee Lambs"
+        got carried by <span class="stud">Derrick Henry's monstrous 35.3</span> and
+        <span class="stud">Trey McBride (24.5)</span>. Everything else was quiet — appropriately,
+        given the name — with <span class="dud">Ja'Marr Chase (3.2)</span> going silent when it mattered.</p>
+        <p>Major Tuddy got tidy lines from CeeDee Lamb (15.4) and Breece Hall (19.8) but the
+        <span class="dud">Texans D/ST posted a MINUS 4.0</span>. Yes, negative. You can't make
+        this up — the defense actively subtracted from the cause.</p>
+        <div class="talk">Major Tuddy, your defense scored negative four. That's not defense,
+        that's a hostage situation. And CeeDee — the Lambs stayed silent, but that mascot of yours
+        cost you the game single-handedly.</div>
+      </div>
+    </div>
+
+    <!-- ================= AWARDS ================= -->
+    <h2 class="section"><span class="num">02</span>Reinebold's Weekly Hardware</h2>
+    <div class="awards">
+      <div class="award">
+        <h3>🏈 Stud of the Week</h3>
+        <div class="big">Josh Allen — 35.66</div>
+        <div class="small">Champ's QB threw the roof off. Wasted in a loss, sadly.</div>
+      </div>
+      <div class="award">
+        <h3>🐎 Workhorse Award</h3>
+        <div class="big">Derrick Henry — 35.3</div>
+        <div class="small">King Henry ran downhill into next Tuesday.</div>
+      </div>
+      <div class="award">
+        <h3>💤 Bust of the Week</h3>
+        <div class="big">Jaylen Waddle — 1.2</div>
+        <div class="small">A FLEX starter that produced less than a coin flip.</div>
+      </div>
+      <div class="award">
+        <h3>🤦 Bench Blunder</h3>
+        <div class="big">Cracked Out Uncle</div>
+        <div class="small">Benched Likely (27.8) &amp; Hubbard (23.7). Lost by 52.</div>
+      </div>
+      <div class="award">
+        <h3>🛡️ Defensive Disaster</h3>
+        <div class="big">Texans D/ST — &minus;4.0</div>
+        <div class="small">A defense that played FOR the other team.</div>
+      </div>
+      <div class="award">
+        <h3>🚀 Surprise of the Week</h3>
+        <div class="big">Christian Watson — 32.7</div>
+        <div class="small">Sun God's secret weapon torched the field.</div>
+      </div>
+    </div>
+
+    <!-- ================= MOMENT ================= -->
+    <h2 class="section"><span class="num">03</span>Moment of the Week</h2>
+    <div class="quotebox">
+      <p>"Ben 'Cracked Out Uncle' Lawton leaving <b>51.5 points</b> on his bench in a game he lost
+      by <b>52.14</b>. Play Likely and Hubbard and it's a nailbiter. Instead it's the beating of
+      the week — and the single most Reinebold-approved teachable moment I've got. Set. Your.
+      Lineup."</p>
+      <div class="attr">— from the film room, Coach Reinebold</div>
+    </div>
+
+    <!-- ================= POWER RANKINGS ================= -->
+    <h2 class="section"><span class="num">04</span>Power Rankings</h2>
+    <table class="power">
+      <thead>
+        <tr><th>#</th><th>Team</th><th>Wk 1 Pts</th><th>Record</th><th>Reinebold's Take</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="rank">1</td><td>Questionable or Kicked</td><td>161.66</td><td class="rec">1-0</td><td>League-best score. Nothing questionable here.</td></tr>
+        <tr><td class="rank">2</td><td>Sun God Eclipsed</td><td>156.10</td><td class="rec">1-0</td><td>Depth for days. Sun's out, guns out.</td></tr>
+        <tr><td class="rank">3</td><td>AllInTheTush</td><td>139.82</td><td class="rec">1-0</td><td>Balanced and mean. A quiet contender.</td></tr>
+        <tr><td class="rank">4</td><td>Mauled by the Panthers</td><td>135.26</td><td class="rec">1-0</td><td>Lamar + Sun God... err, St. Brown. Legit.</td></tr>
+        <tr><td class="rank">5</td><td>Bang average</td><td>135.46</td><td class="rec">0-1</td><td>Scored 4th-most, went 0-1. Brutal draw.</td></tr>
+        <tr><td class="rank">6</td><td>Champ 🏆</td><td>130.76</td><td class="rec">0-1</td><td>Top-heavy roster. Fix the bottom of the lineup.</td></tr>
+        <tr><td class="rank">7</td><td>Silence of the CeeDee Lambs</td><td>120.82</td><td class="rec">1-0</td><td>Won ugly. Henry carried the whole barn.</td></tr>
+        <tr><td class="rank">8</td><td>Kelce's Wildest Dream Team</td><td>118.10</td><td class="rec">0-1</td><td>Two studs, eight ghosts.</td></tr>
+        <tr><td class="rank">9</td><td>Major Tuddy</td><td>106.60</td><td class="rec">0-1</td><td>The defense cost you. Literally, negative points.</td></tr>
+        <tr><td class="rank">10</td><td>Cracked Out Uncle</td><td>103.96</td><td class="rec">0-1</td><td>Benched a title. See you at lineup school, Uncle.</td></tr>
+      </tbody>
+    </table>
+
+    <!-- ================= CLOSER ================= -->
+    <h2 class="section"><span class="num">05</span>The Last Word</h2>
+    <p>That's Week 1, gang. We learned that Josh Allen is still Josh Allen, that a defense can in
+    fact score negative points, and that the fastest way to lose a fantasy game is to out-think
+    your own bench. Set your lineups, trust your studs, and for the love of all that is holy,
+    Uncle — start the guys who score.</p>
+    <p>Reinebold out. See you next week when the tape doesn't lie and neither do I.</p>
+
+  </div>
+
+  <footer>
+    <b>THE REINEBOLD REPORT</b> — A weekly dispatch from The Jeff Reinebowl<br>
+    "Effort is free. So is checking your lineup."
+    <div class="disclaimer">A parody publication written in the spirit of Jeff Reinebold for
+    entertainment among leaguemates. All stats reflect Week 1 fantasy scoring.</div>
+  </footer>
+
+</div>
+</body>
+</html>
