@@ -35,7 +35,7 @@
   .tag{font-family:Arial,sans-serif;font-size:.72rem;padding:3px 9px;border-radius:14px;}
   .tag.stud{background:#e4f0e7;color:var(--turf);} .tag.dud{background:#f6e4e4;color:var(--blood);}
   .talk{background:#fbf6e7;border:1px dashed var(--blood);border-radius:6px;padding:12px 14px;margin-top:12px;font-style:italic;color:var(--blood);}
-  .talk::before{content:"\1F5E3 TRASH TALK";font-family:Arial,sans-serif;font-style:normal;font-weight:800;font-size:.62rem;letter-spacing:.12em;color:var(--blood);display:block;margin-bottom:4px;opacity:.8;}
+  .talk::before{content:"\1F5E3 JEFF'S INSIGHTS";font-family:Arial,sans-serif;font-style:normal;font-weight:800;font-size:.62rem;letter-spacing:.12em;color:var(--blood);display:block;margin-bottom:4px;opacity:.8;}
   .awards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px;}
   .award{background:#fff;border-top:5px solid var(--gold);border-radius:6px;padding:15px 16px;box-shadow:0 4px 12px rgba(0,0,0,.08);}
   .award h3{font-family:Arial,sans-serif;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--blood);margin-bottom:6px;}
@@ -49,18 +49,21 @@
   table.power td{padding:10px 12px;border-bottom:1px solid #eee;font-size:.95rem;vertical-align:top;}
   table.power tr:nth-child(even) td{background:#faf7ee;}
   .rank{font-family:"Arial Black",Arial,sans-serif;color:var(--blood);} .rec{font-size:.8rem;color:#777;}
+
+  /* ===== Power rankings: card reflow on mobile ===== */
   @media (max-width:600px){
-    table.power thead{display:none;}
-    table.power,table.power tbody,table.power tr,table.power td{display:block;width:100%;}
-    table.power tr{border-bottom:2px solid #eadfc4;padding:12px 14px;position:relative;}
-    table.power tr:nth-child(even) td{background:transparent;}
-    table.power td{border:none;padding:2px 0;font-size:.92rem;}
-    table.power td[data-label]::before{content:attr(data-label) ": ";font-family:Arial,sans-serif;font-weight:700;font-size:.68rem;text-transform:uppercase;color:var(--blood);}
-    td.team-cell{font-weight:bold;font-size:1.05rem;margin-bottom:4px;padding-right:44px!important;}
-    td.team-cell::before{content:none!important;}
-    td.rank-cell{position:absolute;top:12px;right:12px;background:var(--blood);color:#fff;font-family:"Arial Black",Arial,sans-serif;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
-    td.rank-cell::before{content:none!important;}
+    table.power, table.power tbody, table.power tr, table.power td{display:block;width:100%;}
+    table.power thead{position:absolute;left:-9999px;}
+    table.power tr{background:#fff;border:1px solid #eadfc4;border-radius:8px;padding:14px 16px 14px 58px;margin-bottom:12px;position:relative;box-shadow:0 3px 10px rgba(0,0,0,.06);}
+    table.power tr:nth-child(even){background:#fff;}
+    table.power td{background:transparent !important;border:none;padding:3px 0;font-size:.92rem;}
+    table.power td[data-label]::before{content:attr(data-label) ": ";font-family:Arial,sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--blood);margin-right:4px;}
+    table.power td.team-cell{font-weight:bold;font-size:1.08rem;color:var(--ink);margin-bottom:6px;padding-bottom:6px;border-bottom:1px solid #f0e8d4;}
+    table.power td.team-cell::before{content:none;}
+    table.power td.rank-cell{position:absolute;top:12px;left:12px;width:34px;height:34px;padding:0;background:var(--blood);color:#fff;font-family:"Arial Black",Arial,sans-serif;font-size:.95rem;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+    table.power td.rank-cell::before{content:none;}
   }
+
   footer{background:var(--ink);color:#9fb0bd;padding:24px var(--pad);font-size:.8rem;text-align:center;border-top:6px solid var(--gold);}
   footer b{color:var(--gold);}
   .disclaimer{font-size:.68rem;opacity:.6;margin-top:8px;font-style:italic;}
@@ -112,7 +115,7 @@ function weekPicker(manifest, current){
 }
 
 function render(d, manifest, wk){
-  const games = (d.matchups||[]).map((m,i) => {
+  const games = (d.matchups||[]).map((m) => {
     const studs = (m.studs||[]).map(s=>`<span class="tag stud">${esc(s)}</span>`).join('');
     const duds  = (m.duds||[]).map(s=>`<span class="tag dud">${esc(s)}</span>`).join('');
     return `<div class="game">
