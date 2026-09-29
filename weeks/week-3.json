@@ -1,0 +1,76 @@
+{
+  "week": 3,
+  "title": "The Reinebold Report",
+  "subtitle": "\"You can draft the studs, but you gotta START the studs. Ask the fella who left forty on the pine.\"",
+  "tagline": "Week 3 — The Recap Nobody Asked For",
+  "author": "Jeff Reinebold",
+  "lede": "Grab a seat in the film room, folks, because Week 3 was a study in margins. One matchup came down to less than half a point, one running back went for forty all by his lonesome, and three starting defenses got together and decided to score absolutely nothing. The Lambs are the last unbeaten standing, one 'Dream Team' finally found a pulse, and Cracked Out Uncle discovered a fresh, cruel way to lose. Chalk's in my hand. Let's roll it.",
+  "matchups": [
+    {
+      "winner": { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "2-1", "points": 153.74 },
+      "loser":  { "team": "Bang average", "manager": "Josh Horton", "record": "1-2", "points": 113.24 },
+      "recap": "The mascot came to play. Brock Bowers (27.6) was a monster at tight end, CeeDee Lamb (20.2) kept humming, and a 19.0 from the Vikings D/ST plus a clean 18.94 from Dak Prescott made this a wire-to-wire beatdown — even with Tetairoa McMillan (3.7) laying an egg in the starting lineup. Bang average got a huge George Kittle line (26.2) and 21.3 from Kenneth Walker III, but Jaylen Waddle (6.4) and T.J. Hockenson (3.1) out of the flex gave them almost nothing.",
+      "trashTalk": "Bang average was banged below average this week — Kittle carried the barn and everybody else clocked out early. Major Tuddy dropped 153 and the mascot outscored half that lineup. Woof.",
+      "studs": ["Brock Bowers 27.6", "George Kittle 26.2", "Kenneth Walker III 21.3", "CeeDee Lamb 20.2"],
+      "duds": ["T.J. Hockenson 3.1", "Jaylen Waddle 6.4"]
+    },
+    {
+      "winner": { "team": "Mauled by the Panthers", "manager": "Paul Anderson", "record": "2-1", "points": 136.04 },
+      "loser":  { "team": "Champ 🏆", "manager": "Tom Needham", "record": "1-2", "points": 108.36 },
+      "recap": "Balanced and mean. Harold Fannin Jr. (24.1) went off at tight end, Lamar Jackson (20.44) did Lamar things, and Javonte Williams (18.3) and Bhayshul Tuten (17.0) gave the Panthers a real spine. Champ started Josh Allen (17.46) and got 21.8 from Kyren Williams, but Justin Jefferson (5.2) whiffed, Jalen Coker (3.8) gave nothing out of the flex-ish spot, and Dalton Schultz (6.0) couldn't chip in enough to keep pace.",
+      "trashTalk": "Champ 🏆 wore the crown and scored a league-low 108 — that trophy's looking more like a participation ribbon. Mauled by the Panthers clawed off a defense that didn't matter and still cruised. Some Champ.",
+      "studs": ["Harold Fannin Jr. 24.1", "Kyren Williams 21.8", "Lamar Jackson 20.44", "Javonte Williams 18.3"],
+      "duds": ["Jalen Coker 3.8", "Justin Jefferson 5.2", "Dalton Schultz 6.0"]
+    },
+    {
+      "winner": { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "3-0", "points": 133.76 },
+      "loser":  { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "0-3", "points": 133.28 },
+      "recap": "The nail-biter of the week — 0.48 points, the whole ballgame. Ja'Marr Chase (24.8), Derrick Henry (21.9), and Davante Adams (20.7) did the heavy lifting for the still-perfect Lambs, who won DESPITE a 0.0 from the Patriots D/ST. Cracked Out Uncle got a monster from Drake London (28.4) and 21.0 from Tee Higgins, but the 49ers D/ST laid a 0.0 goose egg AND Jaylen Warren (20.6) and Michael Wilson (25.9) — a combined 46.5 — sat on the bench in a game lost by less than half a point.",
+      "trashTalk": "Silence of the CeeDee Lambs stayed silent, stayed perfect, and stole one by a hair. Cracked Out Uncle, my guy — you left 46 points on the bench and lost by 0.48. That's not snakebitten anymore, that's a curse with a lease.",
+      "studs": ["Drake London 28.4", "Ja'Marr Chase 24.8", "Derrick Henry 21.9", "Davante Adams 20.7"],
+      "duds": ["49ers D/ST 0.0", "Patriots D/ST 0.0", "Benched: Wilson 25.9", "Benched: Warren 20.6"]
+    },
+    {
+      "winner": { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "1-2", "points": 145.94 },
+      "loser":  { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "2-1", "points": 134.92 },
+      "recap": "The dream finally got some sleep. Jahmyr Gibbs (41.4) detonated for a league-high, and Chris Olave (19.7), Deebo Samuel (15.4), and a tidy 12.0 from the kicker gave the Dream Team its supporting cast at last — even with a 0.0 from the Bengals D/ST. Questionable or Kicked rode Jaxon Smith-Njigba (35.36) and Sam Darnold (27.66), and correctly started Darnold over the benched Joe Burrow (22.58) in this one-QB league, but Dalton Kincaid (3.8) and Steelers D/ST (4.0) couldn't keep pace.",
+      "trashTalk": "Kelce's Wildest Dream Team spent two weeks as a nightmare and finally found the supporting cast — turns out Gibbs going for forty will do that. Questionable or Kicked got a rocket from JSN again and STILL got outgunned. First loss stings, front-runner.",
+      "studs": ["Jahmyr Gibbs 41.4", "Jaxon Smith-Njigba 35.36", "Sam Darnold 27.66", "Chris Olave 19.7"],
+      "duds": ["Bengals D/ST 0.0", "Dalton Kincaid 3.8"]
+    },
+    {
+      "winner": { "team": "False Hope", "manager": "Matt Thomas", "record": "2-1", "points": 148.68 },
+      "loser":  { "team": "AllInTheTush", "manager": "William Smith", "record": "1-2", "points": 142.88 },
+      "recap": "Hope turned real for a week. Garrett Wilson (26.7) and Christian Watson (22.6) went off, McCaffrey (21.6) was steady, and a 16.0 from kicker Harrison Mevis proved the difference in a shootout. AllInTheTush had its own fireworks — Bijan Robinson (35.3) and Brock Purdy (31.28) were electric and Jeremiyah Love (21.9) chipped in — but De'Von Achane (1.7), Chris Godwin (5.5), and Omarion Hampton (5.6) sank the ship.",
+      "trashTalk": "False Hope, would you look at that — after a week-low disaster you dropped 148 and lived up to the good half of the name. AllInTheTush got 66 from Bijan and Purdy alone and STILL lost; when the flex and the RB2 no-show, that's AllInTheLoss.",
+      "studs": ["Bijan Robinson 35.3", "Brock Purdy 31.28", "Garrett Wilson 26.7", "Christian Watson 22.6"],
+      "duds": ["De'Von Achane 1.7", "Chris Godwin Jr. 5.5", "Omarion Hampton 5.6"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Jahmyr Gibbs — 41.4", "note": "A league-high detonation that finally made the Dream Team a dream." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "Christian McCaffrey — 21.6", "note": "Ground it out all day in a shootout win." },
+    { "icon": "💤", "label": "Bust of the Week", "value": "De'Von Achane — 1.7", "note": "A started RB with a projection near 20 that gave almost nothing — in a 6-point loss." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "Cracked Out Uncle", "note": "Benched Wilson (25.9) AND Warren (20.6) — 46.5 combined — while the 49ers D/ST posted 0.0. Lost by 0.48." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Three-way 0.0 tie — 49ers, Patriots & Bengals D/ST", "note": "Three started defenses combined for a fat zero. The Uncle's goose egg was the one that cost a game." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Harold Fannin Jr. — 24.1", "note": "A tight end nobody drafted turning in a stud line." }
+  ],
+  "momentOfWeek": {
+    "text": "Cracked Out Uncle losing by 0.48 points — with a 0.0 from his starting D/ST and Michael Wilson (25.9) and Jaylen Warren (20.6) stapled to the bench for a combined 46.5. Any one of them off the pine and the Uncle wins going away. Instead he's 0-3 and the ghost of Week 1's 51.5-point benching is now officially haunting this franchise. Set. Your. Lineup.",
+    "attribution": "— from the film room, Coach Reinebold"
+  },
+  "powerRankings": [
+    { "rank": 1,  "team": "Silence of the CeeDee Lambs",  "points": 133.76, "record": "3-0", "take": "Only 3-0 team in the league — wins ugly, wins anyway. Scary." },
+    { "rank": 2,  "team": "Mauled by the Panthers",       "points": 136.04, "record": "2-1", "take": "Balanced and bruising. Handed the Champ a season low." },
+    { "rank": 3,  "team": "Major Tuddy",                  "points": 153.74, "record": "2-1", "take": "Week-high 153. The mascot is officially a problem." },
+    { "rank": 4,  "team": "Questionable or Kicked",       "points": 134.92, "record": "2-1", "take": "JSN keeps flying but the front-runner tasted its first L." },
+    { "rank": 5,  "team": "False Hope",                   "points": 148.68, "record": "2-1", "take": "148 and a win — the name's only half true this week." },
+    { "rank": 6,  "team": "Kelce's Wildest Dream Team",   "points": 145.94, "record": "1-2", "take": "Gibbs went for 40 and the cast finally showed. Dream's alive." },
+    { "rank": 7,  "team": "AllInTheTush",                 "points": 142.88, "record": "1-2", "take": "Bijan and Purdy dropped 66 and it wasn't enough. Snakebit." },
+    { "rank": 8,  "team": "Bang average",                 "points": 113.24, "record": "1-2", "take": "Kittle solo act. The rest was, well, below average." },
+    { "rank": 9,  "team": "Champ 🏆",                     "points": 108.36, "record": "1-2", "take": "League-low 108. Uneasy lies the crown." },
+    { "rank": 10, "team": "Cracked Out Uncle",           "points": 133.28, "record": "0-3", "take": "Left 46 on the bench, lost by 0.48, fell to 0-3. Cursed." }
+  ],
+  "lastWord": "That's Week 3, gang. We learned Gibbs can win a week by himself, three defenses can all score nothing on the same Sunday, and you can score 133 and STILL fall to 0-3 if the points you need are watching from the bench. The Lambs are perfect, the Uncle is snakebitten beyond belief, and the fastest way to the film room is leaving your studs stapled to the pine. Set your lineups, trust your studs, and Cracked Out Uncle — for the love of the game, START THE GUYS WHO SCORE. Reinebold out.",
+  "footerTagline": "\"Effort is free. So is checking your lineup.\""
+}
