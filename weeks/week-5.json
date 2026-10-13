@@ -1,0 +1,76 @@
+{
+  "week": 5,
+  "title": "The Reinebold Report",
+  "subtitle": "\"Thirty-nine from your quarterback, thirty-seven from your running back, and you still go home. That's fantasy football, baby.\"",
+  "tagline": "Week 5 — The Recap Nobody Asked For",
+  "author": "Jeff Reinebold",
+  "lede": "Grab a seat, gang, because Week 5 was the week the margins came to collect. One fella lost by three points with sixteen on his bench, another fella got 77 points from two players and lost anyway, and the former saddest franchise in this league just ripped off BACK-TO-BACK wins and posted the highest score of the week. Meanwhile a starting defense went MINUS TWO. Negative. In the hole. Chalk's in my hand, let's roll the tape.",
+  "matchups": [
+    {
+      "winner": { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "4-1", "points": 150.84 },
+      "loser":  { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "2-3", "points": 143.26 },
+      "recap": "Four straight for the mascot, and he did it the hard way. Parker Washington (30.4) went from a 2.0 no-show last week to a 30-burger, Mike Evans (26.3) hammered out of the RB/WR spot and Brock Bowers (23.0) kept humming — all while Tetairoa McMillan sat on a bye and CeeDee Lamb crashed from 41.3 to 2.9. Kelce's Wildest Dream Team got the two biggest individual numbers in the league — Drake Maye (39.46) and Jahmyr Gibbs (37.7) — and lost by 7.58 because DK Metcalf (5.3), Jake Ferguson (4.9) and Colston Loveland (3.9) gave them a combined 14.1 from three starting spots.",
+      "trashTalk": "Kelce's Wildest Dream Team put up 77 points from two guys and still couldn't get there — the other eight slots staged a walkout. Major Tuddy won with his best receiver on a bye and CeeDee Lamb giving him 2.9. That's not luck anymore, folks, that's a problem.",
+      "studs": ["Drake Maye 39.46", "Jahmyr Gibbs 37.7", "Parker Washington 30.4", "Mike Evans 26.3"],
+      "duds": ["RJ Harvey 0.7", "CeeDee Lamb 2.9", "Colston Loveland 3.9", "Jake Ferguson 4.9"]
+    },
+    {
+      "winner": { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "3-2", "points": 156.9 },
+      "loser":  { "team": "Mauled by the Panthers", "manager": "Paul Anderson", "record": "2-3", "points": 121.32 },
+      "recap": "The fade is over — a front-runner came back to life. Malik Nabers (29.1) went off, Jaxon Smith-Njigba (22.8) shook off his quiet Week 4, Joe Burrow (24.6) did his job at the quarterback slot, and Jason Myers (23.0) kicked his way past five of his own teammates. Mauled by the Panthers got a lovely Matthew Stafford (27.32) and Ka'imi Fairbairn (17.0), but Harold Fannin Jr. (1.4) at tight end and a Rams D/ST that posted MINUS 1.0 buried them — and Emeka Egbuka's 17.2 watched the whole thing from the bench.",
+      "trashTalk": "Mauled by the Panthers is living up to the name — two straight losses, a tight end who gave 1.4, and a defense that actually took points OFF the board. Questionable or Kicked got 23 from a kicker, which in this league counts as a flex play. The name's still questionable; the record isn't.",
+      "studs": ["Malik Nabers 29.1", "Matthew Stafford 27.32", "Joe Burrow 24.6", "Jason Myers 23.0"],
+      "duds": ["Rams D/ST -1.0", "Harold Fannin Jr. 1.4", "Steelers D/ST 1.0", "Chase Brown 7.0"]
+    },
+    {
+      "winner": { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "2-3", "points": 167.74 },
+      "loser":  { "team": "Bang average", "manager": "Josh Horton", "record": "2-3", "points": 158.5 },
+      "recap": "Somebody check Uncle's pulse — that's two in a row and the week's highest score. Jaylen Warren (36.8) ran wild, Isaiah Likely (32.4) detonated out of the FLEX, Jayden Daniels (32.26) went for thirty-two and Sam LaPorta (19.8) chipped in, surviving a MINUS 1.0 from the Colts D/ST and a 4.2 dud from Tee Higgins. Bang average had no answer even with Puka Nacua (37.7) and Bucky Irving (31.5) going nuclear — Kenneth Walker III and Bryce Young both sat on byes and Jaylen Waddle (4.8) and George Kittle (7.4) picked the wrong week to disappear.",
+      "trashTalk": "Bang average dropped 158 — a number that wins most weeks — and ran smack into the one team in this league that spent weeks losing by half a point. Cracked Out Uncle has WON TWO GAMES IN A ROW. Somebody nail the barn door shut before he does it again.",
+      "studs": ["Puka Nacua 37.7", "Jaylen Warren 36.8", "Isaiah Likely 32.4", "Jayden Daniels 32.26"],
+      "duds": ["Colts D/ST -1.0", "Tee Higgins 4.2", "Jaylen Waddle 4.8", "George Kittle 7.4"]
+    },
+    {
+      "winner": { "team": "Champ 🏆", "manager": "Tom Needham", "record": "3-2", "points": 135.8 },
+      "loser":  { "team": "False Hope", "manager": "Matt Thomas", "record": "2-3", "points": 132.74 },
+      "recap": "Three-point-oh-six. That's the whole story. Josh Allen (30.5), Tyler Warren (21.4) from tight end, Kyren Williams (19.6) and a Texans D/ST that actually posted 15.0 got the Champ this win by the width of a whistle. False Hope had it RIGHT THERE — Christian Watson (32.3) and Garrett Wilson (23.4) were terrific — but David Montgomery gave 1.1 at running back, Carnell Tate finally got the start and handed over 1.6, Harrison Mevis kicked a lonely 2.0, and Blake Corum's 16.2 sat on the bench. Three points. Sixteen on the pine.",
+      "trashTalk": "False Hope benched Carnell Tate for 21.5 last week, STARTED him this week for 1.6, and lost by three with Blake Corum's sixteen points in a lawn chair. That's not false hope, that's a magic trick. Champ 🏆 wins by the thickness of a coat of paint and keeps the crown for now.",
+      "studs": ["Christian Watson 32.3", "Josh Allen 30.5", "Garrett Wilson 23.4", "Tyler Warren 21.4"],
+      "duds": ["David Montgomery 1.1", "Carnell Tate 1.6", "Harrison Mevis 2.0", "Romeo Doubs 2.6"]
+    },
+    {
+      "winner": { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "4-1", "points": 146.44 },
+      "loser":  { "team": "AllInTheTush", "manager": "William Smith", "record": "1-4", "points": 108.56 },
+      "recap": "The Lambs got their receivers back and that was all she wrote. Jared Goff (28.94), Davante Adams (22.1) and Ja'Marr Chase (19.7) all showed up in the same week for a change, with Trey McBride (21.6) and Derrick Henry (21.0) along for the ride — even a 0.0 from Roman Wilson in the FLEX couldn't slow it down. AllInTheTush posted the week's lowest score at 108.56 as Bijan Robinson (15.8) had his quietest day of the year, Jeremiyah Love (2.2) and Omarion Hampton (4.9) did nothing, and the Bears D/ST handed in a MINUS 2.0.",
+      "trashTalk": "AllInTheTush has now lost four straight and its defense scored NEGATIVE TWO — you'd have gotten more points leaving the slot empty and praying. Silence of the CeeDee Lambs let Chase and Adams out of the penalty box and strolled to 4-1. AllInTheLoss, chapter four, and the pages keep turning.",
+      "studs": ["Jared Goff 28.94", "Davante Adams 22.1", "Trey McBride 21.6", "Derrick Henry 21.0"],
+      "duds": ["Bears D/ST -2.0", "Roman Wilson 0.0", "Jeremiyah Love 2.2", "Omarion Hampton 4.9"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Drake Maye — 39.46", "note": "Biggest single number of the week by a mile, and his owner STILL lost. Cruelest 39 points in America." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "Jaylen Warren — 36.8", "note": "Toted it all afternoon and personally dragged the Uncle to back-to-back wins. Who had that on their card?" },
+    { "icon": "💤", "label": "Bust of the Week", "value": "CeeDee Lamb — 2.9", "note": "Projected 19.1, went 41.3 last week, gave 2.9 this week. Major Tuddy won anyway, which tells you everything." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "False Hope", "note": "Started David Montgomery (1.1) at RB while Blake Corum (16.2) sat — a perfectly legal RB-for-RB swap worth 15.1 points. Lost by 3.06. That one's going in the scrapbook, and not the good page." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Bears D/ST — MINUS 2.0", "note": "Negative points. And the Rams (-1.0) and Colts (-1.0) joined them below the waterline. Three started defenses in the red — the running bit has officially gone subterranean." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Parker Washington — 30.4", "note": "Projected 14.1 after handing Major Tuddy a 2.0 in Week 4. Thirty-point-four. The mascot's horseshoe is welded on." }
+  ],
+  "momentOfWeek": {
+    "text": "False Hope losing by 3.06 with Blake Corum's 16.2 on the bench. Look at the film: Christian Watson goes for 32.3, Garrett Wilson goes for 23.4, you've got the Champ dead to rights — and then David Montgomery hands you 1.1 from a starting running back while the fella who put up sixteen never takes his helmet off. Last week this team benched Carnell Tate's 21.5 and got buried. This week it started Tate for 1.6 and benched the right guy instead. You cannot script this, gang. The name is doing the heavy lifting again.",
+    "attribution": "— from the film room, Coach Reinebold"
+  },
+  "powerRankings": [
+    { "rank": 1,  "team": "Major Tuddy",                  "points": 150.84, "record": "4-1", "take": "Four straight wins and the charge continues, top of the table and second in points scored." },
+    { "rank": 2,  "team": "Silence of the CeeDee Lambs",  "points": 146.44, "record": "4-1", "take": "Chase and Adams came back to work and the Lambs got right back to 4-1. Tier one." },
+    { "rank": 3,  "team": "Questionable or Kicked",       "points": 156.9,  "record": "3-2", "take": "Most points scored in the whole league (732.78) and the fade is officially over. Back in it." },
+    { "rank": 4,  "team": "Champ 🏆",                     "points": 135.8,  "record": "3-2", "take": "Two in a row, both of them tight. Winning ugly is still winning, and the crown's still on." },
+    { "rank": 5,  "team": "Cracked Out Uncle",            "points": 167.74, "record": "2-3", "take": "Week-high 167.74 and a two-game win streak. The curse is dead. Uncle is officially cracking out." },
+    { "rank": 6,  "team": "Bang average",                 "points": 158.5,  "record": "2-3", "take": "158 points and a loss. Nacua goes for 37.7 and it gets him nothing. Brutal draw." },
+    { "rank": 7,  "team": "Kelce's Wildest Dream Team",   "points": 143.26, "record": "2-3", "take": "Maye and Gibbs gave him 77 and the rest gave him a headache. Tough week." },
+    { "rank": 8,  "team": "False Hope",                   "points": 132.74, "record": "2-3", "take": "Lost by three with sixteen on the bench. The name keeps writing my copy for me." },
+    { "rank": 9,  "team": "Mauled by the Panthers",       "points": 121.32, "record": "2-3", "take": "Two straight Ls, a -1.0 defense, and 17.2 rotting on the bench. Mauled indeed." },
+    { "rank": 10, "team": "AllInTheTush",                 "points": 108.56, "record": "1-4", "take": "Week-low 108.56, four straight losses, and a defense that scored negative two. Rock bottom has a basement." }
+  ],
+  "lastWord": "That's Week 5, gang. We learned that 39 from your quarterback and 37 from your running back buys you exactly nothing, that three starting defenses can finish in the NEGATIVE, and that Cracked Out Uncle — the fella who lost by 0.48 in Week 3 — just posted the highest score in the league and won back-to-back. Major Tuddy and the Lambs sit at 4-1, the Champ survived by three points, and False Hope lost by three with sixteen points sitting in street clothes. Set your lineups, start your studs, and AllInTheTush — negative two from a defense is a cry for help. Reinebold out.",
+  "footerTagline": "\"Effort is free. So is checking your lineup.\""
+}
