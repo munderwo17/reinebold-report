@@ -1,0 +1,76 @@
+{
+  "week": 6,
+  "title": "The Reinebold Report",
+  "subtitle": "\"Thirty-four hundredths of a point. That's not a margin, that's a rounding error with a scoreboard.\"",
+  "tagline": "Week 6 — The Recap Nobody Asked For",
+  "author": "Jeff Reinebold",
+  "lede": "Pull up a chair, gang. Week 6 had the closest finish of the year. A fella who lost by 0.48 back in Week 3 won by 0.34 this time, and that's three straight wins for a franchise we were writing off a month ago. The mascot won its fifth straight with 25.7 points sitting on the bench, the Champ posted their lowest score of the season, and two more starting defenses went into the red. Chalk's in my hand, let's roll the tape.",
+  "matchups": [
+    {
+      "winner": { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "5-1", "points": 117.72 },
+      "loser":  { "team": "Champ 🏆", "manager": "Tom Needham", "record": "3-3", "points": 80.5 },
+      "recap": "Five straight for the mascot, and it wasn't even a good week. James Cook III (24.3) carried the load, CeeDee Lamb bounced back to 16.0 and Tetairoa McMillan (14.6) returned from his bye. That was plenty, even though Dak Prescott gave 11.02, MarShawn Lloyd gave 1.0 and Germie Bernard's 25.7 sat on the bench behind Parker Washington's 10.4. The Champ put up their lowest score in the league this season at 80.5. Josh Allen managed only 18.3, Kyren Williams gave 9.7, Brandon Aubrey kicked one lonely point and the Texans D/ST went to MINUS 2.0. Quinshon Judkins (OUT) and Juwan Johnson both gave 0.0 from the starting lineup.",
+      "trashTalk": "Champ 🏆 posted 80.5 and started two guys who scored zero, plus a kicker who scored one. That trophy emoji is doing more work than half the roster. Major Tuddy left 25.7 on the pine and still won by 37. Five straight, folks. Somebody check that horseshoe for a permit.",
+      "studs": ["James Cook III 24.3", "DeVonta Smith 20.5", "Josh Allen 18.3", "CeeDee Lamb 16.0"],
+      "duds": ["Texans D/ST -2.0", "Quinshon Judkins 0.0", "Juwan Johnson 0.0", "Brandon Aubrey 1.0"]
+    },
+    {
+      "winner": { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "3-3", "points": 134.0 },
+      "loser":  { "team": "AllInTheTush", "manager": "William Smith", "record": "1-5", "points": 133.66 },
+      "recap": "Zero-point-three-four. The Uncle who lost by 0.48 in Week 3 just won by 0.34, and that's three in a row. Isaiah Likely (23.9) did it again from tight end, Jonathan Taylor (21.1), Jayden Daniels (21.0) and Chuba Hubbard (19.1) all chipped in, and they survived Jaylen Warren falling back to 9.8. AllInTheTush did nearly everything right. Tre Tucker (26.7) exploded out of the FLEX, DK Metcalf (20.3) and Keenan Allen (16.2) delivered, but Bijan Robinson finished with 7.3 against a 23.0 projection and Tyler Allgeier added 5.8. Their bench scored zero, so there was no lineup change that could have saved them.",
+      "trashTalk": "AllInTheTush lost by a third of a point. That's one extra yard. One. Five straight losses, and this one came from Bijan going missing on the one day they needed him. Cracked Out Uncle used to be the guy losing these by a hair. Now he's the guy winning them. The curse didn't break, it packed a bag and moved down the street.",
+      "studs": ["Tre Tucker 26.7", "Isaiah Likely 23.9", "Jonathan Taylor 21.1", "Jayden Daniels 21.0"],
+      "duds": ["Tyler Allgeier 5.8", "Colts D/ST 5.0", "Michael Wilson 7.2", "Bijan Robinson 7.3"]
+    },
+    {
+      "winner": { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "4-2", "points": 165.42 },
+      "loser":  { "team": "False Hope", "manager": "Matt Thomas", "record": "2-4", "points": 146.54 },
+      "recap": "That's the week-high, and Questionable or Kicked now has the most points in the league by a wide margin (898.20). Malik Nabers (28.5) and Jaxon Smith-Njigba (25.4) both went off again, D'Andre Swift (23.0) and Matthew Golden (22.4) joined in, and Kirk Cousins (18.52) held down the quarterback job. The only blemish was 1.4 from Mark Andrews at tight end. False Hope scored 146.54, the second-highest total of the week, and lost anyway. Christian McCaffrey (30.7), Trevor Lawrence (27.34) and Carnell Tate (19.0) all came through, but Garrett Wilson (8.4), Christian Watson (9.4) and kicker Tyler Loop (3.0) left them short.",
+      "trashTalk": "False Hope finally got the lineup right. Tate started and scored, Corum started and scored, and they put up 146. Then they ran into a buzzsaw. That's three straight losses for a team that's now losing on good weeks AND bad ones. Questionable or Kicked? The record's 4-2 and nobody's questioning it now.",
+      "studs": ["Christian McCaffrey 30.7", "Malik Nabers 28.5", "Trevor Lawrence 27.34", "Jaxon Smith-Njigba 25.4"],
+      "duds": ["Mark Andrews 1.4", "Tyler Loop 3.0", "Garrett Wilson 8.4", "Tucker Kraft 8.7"]
+    },
+    {
+      "winner": { "team": "Bang average", "manager": "Josh Horton", "record": "3-3", "points": 126.94 },
+      "loser":  { "team": "Mauled by the Panthers", "manager": "Paul Anderson", "record": "2-4", "points": 94.08 },
+      "recap": "Kenneth Walker III (27.9) was back from his bye and ran over everybody. Bryce Young (19.84), George Kittle (17.9), Puka Nacua (14.0) and George Pickens (13.3) did the rest. Bucky Irving (6.9) and Emanuel Wilson (5.2) didn't matter. Mauled by the Panthers got a nice day from Bhayshul Tuten (24.7), and Emeka Egbuka (17.8) finally made it off the bench, but Amon-Ra St. Brown was on BYE and gave 0.0 from the RB/WR slot. Terry McLaurin (3.7), Pat Freiermuth (3.1) and Harold Fannin Jr. (1.9) didn't help either. The bench couldn't have saved them, because every player on it scored zero too.",
+      "trashTalk": "Mauled by the Panthers has now lost three straight. They started a 0.0 at receiver, got 1.9 from the tight end for the second week running, and had a bench full of zeros as backup. Mauled? This is a full nature documentary. Bang average gets back to .500, which is about as average as it gets.",
+      "studs": ["Kenneth Walker III 27.9", "Bhayshul Tuten 24.7", "Bryce Young 19.84", "George Kittle 17.9"],
+      "duds": ["Amon-Ra St. Brown 0.0", "Harold Fannin Jr. 1.9", "Pat Freiermuth 3.1", "Terry McLaurin 3.7"]
+    },
+    {
+      "winner": { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "3-3", "points": 103.6 },
+      "loser":  { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "4-2", "points": 95.42 },
+      "recap": "This one was low-scoring and ugly. Ja'Marr Chase, Jared Goff and Kyle Monangai all scored 0.0 on the Lambs' bench with BYE and injury, and the replacements didn't fill the gap. Derrick Henry (5.0), Davante Adams (6.9), Rhamondre Stevenson (3.6) and Denzel Boston (2.5) all fizzled. Luther Burden III (17.5) and a Chiefs D/ST that actually scored 14.0 kept it close. Kelce's Wildest Dream Team won with main man Jahmyr Gibbs on BYE, and the Jaguars D/ST at MINUS 2.0. Drake Maye (23.8) led the way, Colston Loveland (18.5) bounced back from his 3.9 last week, and Chris Olave and Xavier Worthy added 14.3 each.",
+      "trashTalk": "Kelce's Wildest Dream Team lost with 77 points from two guys last week, then won this week with Gibbs on the bench and a defense in the minus column. Explain that. The Lambs went quiet in the worst way. When Henry, Adams and the FLEX combine for 14.4, the silence is coming from inside the house.",
+      "studs": ["Drake Maye 23.8", "Colston Loveland 18.5", "Luther Burden III 17.5", "Aaron Rodgers 16.02"],
+      "duds": ["Jaguars D/ST -2.0", "Cam Skattebo 0.0", "Denzel Boston 2.5", "Rhamondre Stevenson 3.6"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Christian McCaffrey — 30.7", "note": "The top individual score of the week came in a loss, just like Drake Maye's last week. Stud of the Week is starting to look like a curse." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "Kenneth Walker III — 27.9", "note": "Back from the bye and running angry. He put Bang average back at .500 almost single-handed." },
+    { "icon": "💤", "label": "Bust of the Week", "value": "Bijan Robinson — 7.3", "note": "Projected for 23.0 and finished with 7.3. His team lost by 0.34. One more carry would have flipped the result." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "Champ 🏆", "note": "Started Quinshon Judkins at RB but he was then ruled OUT, while J.K. Dobbins put up 13.6 on the bench. That's a legal RB-for-RB swap worth 13.6. Honorable mention to Major Tuddy, who sat Germie Bernard's 25.7 behind Parker Washington's 10.4 and won anyway." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Texans D/ST & Jaguars D/ST — MINUS 2.0 each", "note": "A two-way tie below zero. The Texans went -4.0 in Week 1, 15.0 last week and -2.0 this week. Six weeks in, starting a defense in this league is still a gamble." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Tre Tucker — 26.7", "note": "Projected for 10.3 and scored 26.7 out of the FLEX. On most weeks that wins you the game. AllInTheTush lost by a third of a point." }
+  ],
+  "momentOfWeek": {
+    "text": "Cracked Out Uncle beat AllInTheTush 134.00 to 133.66. Go back to the Week 3 film: this same Uncle left 46.5 on the bench, started a defense that scored zero, and lost by 0.48. Three weeks later he's on the other side of an even thinner margin, and it's his third straight win. Meanwhile AllInTheTush got 26.7 from Tre Tucker, 20.3 from DK Metcalf and nothing from its bench, and Bijan Robinson finished 15.7 points under his projection. Football giveth, football taketh, and sometimes it does both inside a third of a point.",
+    "attribution": "— from the film room, Coach Reinebold"
+  },
+  "powerRankings": [
+    { "rank": 1,  "team": "Major Tuddy",                  "points": 117.72, "record": "5-1", "take": "Five straight wins, and he won with 25.7 points sitting on his bench. Even the bad weeks end in a W." },
+    { "rank": 2,  "team": "Questionable or Kicked",       "points": 165.42, "record": "4-2", "take": "Week-high 165.42, and he leads the league in points by more than 50 (898.20). Nabers and JSN are a cheat code." },
+    { "rank": 3,  "team": "Silence of the CeeDee Lambs",  "points": 95.42,  "record": "4-2", "take": "A rough week with Chase and Goff out of the lineup, but still 4-2 and in tier one. One bad week doesn't change that." },
+    { "rank": 4,  "team": "Cracked Out Uncle",            "points": 134.0,  "record": "3-3", "take": "Three straight wins, the last by 0.34. The franchise that kept losing by inches is now winning by them." },
+    { "rank": 5,  "team": "Bang average",                 "points": 126.94, "record": "3-3", "take": "Walker's back from the bye and so is .500. Third in points scored (840.28). Dangerous." },
+    { "rank": 6,  "team": "Kelce's Wildest Dream Team",   "points": 103.6,  "record": "3-3", "take": "Won without Gibbs scoring a point, and with a defense in the minus column. Ugly, but it counts." },
+    { "rank": 7,  "team": "Champ 🏆",                     "points": 80.5,   "record": "3-3", "take": "Lowest score in the league this season, and two starters scored zero. The crown is slipping." },
+    { "rank": 8,  "team": "False Hope",                   "points": 146.54, "record": "2-4", "take": "Scored 146 and lost. Three straight losses. The name has stopped being funny." },
+    { "rank": 9,  "team": "Mauled by the Panthers",       "points": 94.08,  "record": "2-4", "take": "Three straight losses, a 0.0 starter at receiver, and every player on the bench scored zero. Mauled, then dragged." },
+    { "rank": 10, "team": "AllInTheTush",                 "points": 133.66, "record": "1-5", "take": "Five straight losses, the latest by 0.34. Better effort this week, same result. AllInTheLoss, chapter five." }
+  ],
+  "lastWord": "That's Week 6, gang. We learned that a third of a point can decide your whole week, that Cracked Out Uncle has gone from cursed to clutch, and that the mascot can win by 37 with 25.7 on the bench. Major Tuddy is alone at 5-1. Questionable or Kicked and the Lambs sit at 4-2, and five teams are bunched at 3-3. The Champ scored 80.5, which is a long way from champion form. Set your lineups, check your byes, and remember if a player is projected for zero, he's probably going to score zero. Reinebold out.",
+  "footerTagline": "\"Effort is free. So is checking your lineup.\""
+}
