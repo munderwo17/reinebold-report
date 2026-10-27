@@ -1,0 +1,76 @@
+{
+  "week": 7,
+  "title": "The Reinebold Report",
+  "subtitle": "\"One-tenth of a point. Last week I called 0.34 a rounding error. I owe the rounding error an apology.\"",
+  "tagline": "Week 7 — The Recap Nobody Asked For",
+  "author": "Jeff Reinebold",
+  "lede": "Gather round, gang. Last week we had a game decided by 0.34 and I said we'd never see thinner. Well, we did. The Lambs beat the Champ by ONE-TENTH of a point, and they did it with 59 points rotting on the bench. The mascot's five-game streak is over, Questionable or Kicked just crossed 1,000 points for the season, AllInTheTush finally remembered how to win, and Cracked Out Uncle has now won four straight. Three teams sit at 5-2 at the top. Chalk's in my hand, let's roll the tape.",
+  "matchups": [
+    {
+      "winner": { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "5-2", "points": 126.72 },
+      "loser":  { "team": "Champ 🏆", "manager": "Tom Needham", "record": "3-4", "points": 126.62 },
+      "recap": "126.72 to 126.62. Trey McBride (27.1) led the Lambs, Luther Burden III (23.7) kept rolling, and Braelon Allen (19.4), Jared Goff (18.02) and Ja'Marr Chase (17.2) did their part. That covered for Jaylin Noel (1.7), Derrick Henry (5.9), Denzel Boston (5.7) and a Chiefs D/ST that went from 14.0 last week to MINUS 1.0. It also covered for Tony Pollard's 36.5 and Rhamondre Stevenson's 22.5 sitting on the bench. The Champ got Quinshon Judkins (23.4) back from last week's injury, plus Josh Jacobs (20.1), Kyren Williams (18.1) and Devaughn Vele (16.4). Jalen Coker gave 1.9 at WR and the Texans D/ST gave 0.0, while Darius Cooper scored 2.7 on the bench. Starting Cooper would have won it.",
+      "trashTalk": "Silence of the CeeDee Lambs left 59 points on the bench and won anyway. Champ 🏆 lost by a tenth of a point with a backup receiver on the pine who'd have flipped it the matchup. That trophy emoji is in witness protection now. Two straight losses. The crown is on the floor.",
+      "studs": ["Trey McBride 27.1", "Luther Burden III 23.7", "Quinshon Judkins 23.4", "Josh Jacobs 20.1"],
+      "duds": ["Chiefs D/ST -1.0", "Texans D/ST 0.0", "Jaylin Noel 1.7", "Jalen Coker 1.9"]
+    },
+    {
+      "winner": { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "5-2", "points": 154.28 },
+      "loser":  { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "5-2", "points": 106.32 },
+      "recap": "The streak is over. Questionable or Kicked posted the week-high for the second week running and is now the first team past 1,000 points (1,052.48). Jaxon Smith-Njigba (31.3) was the best starter in the league, Joe Burrow (28.88) and Ashton Jeanty (21.6) went big, and D'Andre Swift (19.0) and Malik Nabers (18.1) added the rest. Isaiah Likely (3.2) and Jordan Addison (4.3) were the only soft spots, and Alvin Kamara's 13.2 sat on the bench. The mascot had James Cook III and Parker Washington on bye. CeeDee Lamb (24.4) and Caleb Williams (22.12) did their bit, but Germie Bernard started this time and gave 5.7, a week after scoring 25.7 on the bench. The Jets D/ST gave 0.0 and Harrison Butker kicked 3.0.",
+      "trashTalk": "Five straight wins, and the horseshoe finally got confiscated. Germie Bernard scored 25.7 on the bench last week and 5.7 in the lineup this week. That's fantasy football. Questionable or Kicked? Nobody's questioning them. They're kicking everybody.",
+      "studs": ["Jaxon Smith-Njigba 31.3", "Joe Burrow 28.88", "CeeDee Lamb 24.4", "Caleb Williams 22.12"],
+      "duds": ["Jets D/ST 0.0", "Harrison Butker 3.0", "Isaiah Likely 3.2", "Jordan Addison 4.3"]
+    },
+    {
+      "winner": { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "4-3", "points": 130.76 },
+      "loser":  { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "3-4", "points": 123.94 },
+      "recap": "Four straight for the Uncle. Tee Higgins (26.8) led the way, Drake London (19.6), Jonathan Taylor (19.0) and Jaylen Warren (16.7) chipped in, and Jordan Love (16.96) filled in with Jayden Daniels on bye. Sam LaPorta (2.8) and kicker Ryan Fitzgerald (1.0) didn't help. Kelce's Wildest Dream Team got 27.44 from Drake Maye, 19.9 from Colston Loveland and 17.3 from Jahmyr Gibbs. Then you look at the bench. Cam Skattebo scored 19.1 and Rico Dowdle 14.6, while A.J. Brown gave 7.8 at RB/WR and J.K. Dobbins 8.3 at RB. Those two swaps were worth 17.6. They lost by 6.82.",
+      "trashTalk": "Kelce's Wildest Dream Team had the winning lineup. It was just sitting on the bench. Skattebo and Dowdle put up 33.7 in street clothes. Cracked Out Uncle has now won four in a row. A month ago he was losing by half a point. Now he's 4-3 and one game off the top.",
+      "studs": ["Drake Maye 27.44", "Tee Higgins 26.8", "Colston Loveland 19.9", "Drake London 19.6"],
+      "duds": ["Ryan Fitzgerald 1.0", "Sam LaPorta 2.8", "Spencer Shrader 3.0", "Xavier Worthy 4.1"]
+    },
+    {
+      "winner": { "team": "AllInTheTush", "manager": "William Smith", "record": "2-5", "points": 130.22 },
+      "loser":  { "team": "Bang average", "manager": "Josh Horton", "record": "3-4", "points": 113.82 },
+      "recap": "Five straight losses are over. AllInTheTush won for the first time since Week 1. Zay Flowers (27.7) and Jameson Williams (26.1 out of the FLEX) did the damage, Ollie Gordon II (17.3) and Bijan Robinson (17.2) helped, and they won even though Tre Tucker's 21.3 sat on the bench and kicker Dominic Zvada gave 1.0. Bang average got 24.0 from Bucky Irving and 21.8 from Puka Nacua, but Bryce Young fell to 5.42 a week after 19.84. Nico Collins (2.6) and Kenneth Walker III (9.7) also struggled, and Emanuel Wilson's 18.5 sat on the bench.",
+      "trashTalk": "AllInTheTush benched a guy who scored 21.3 and still won. That's how bad the luck has been. They finally caught a break. Bang average went back below .500 on a 5.42 from the quarterback. That's not average. That's Bang below average.",
+      "studs": ["Zay Flowers 27.7", "Jameson Williams 26.1", "Bucky Irving 24.0", "Puka Nacua 21.8"],
+      "duds": ["Dominic Zvada 1.0", "Nico Collins 2.6", "Bryce Young 5.42", "DK Metcalf 7.6"]
+    },
+    {
+      "winner": { "team": "False Hope", "manager": "Matt Thomas", "record": "3-4", "points": 125.1 },
+      "loser":  { "team": "Mauled by the Panthers", "manager": "Paul Anderson", "record": "2-5", "points": 98.8 },
+      "recap": "False Hope snapped a three-game skid. Christian McCaffrey (22.0) led again, with Blake Corum (17.1), Saquon Barkley (15.1), Tucker Kraft (14.8) and Brandon Aubrey (14.0) all solid. Kyler Murray (13.9) started at QB with Trevor Lawrence on bye, and Garrett Wilson gave only 4.6. Mauled by the Panthers got Amon-Ra St. Brown back (24.2) and 21.5 from Javonte Williams, but Christian Kirk gave 0.0 from the starting lineup, Aaron Jones Sr. gave 3.6, Tyler Higbee 3.4 and the Rams D/ST 1.0. The bench scored zero for the second straight week, so no swap could have helped.",
+      "trashTalk": "Mauled by the Panthers has now lost four straight. Another 0.0 in the starting lineup, another bench full of zeros. At this point the bench is just a waiting room. False Hope finally won one. Turns out there's real hope in there after all.",
+      "studs": ["Amon-Ra St. Brown 24.2", "Christian McCaffrey 22.0", "Javonte Williams 21.5", "Matthew Stafford 17.5"],
+      "duds": ["Christian Kirk 0.0", "Rams D/ST 1.0", "Tyler Higbee 3.4", "Aaron Jones Sr. 3.6"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Jaxon Smith-Njigba — 31.3", "note": "The top starter of the week, and it came in a win. That breaks the two-week run of Stud of the Week going to a loser. Tony Pollard scored 36.5, but he did it on the bench, so it doesn't count." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "Quinshon Judkins — 23.4", "note": "A week after injury, he came back with 23.4. His team lost by 0.10, which wasn't his fault." },
+    { "icon": "💤", "label": "Bust of the Week", "value": "Bryce Young — 5.42", "note": "Projected for 17.7 and finished with 5.42, one week after his 19.84. Bang average lost by 16.4 and fell back under .500." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "Champ 🏆", "note": "Started Jalen Coker (1.9) at WR while Darius Cooper scored 2.7 on the bench. That's a legal WR swap worth 0.8, and they lost by 0.10. That's two weeks running for the Champ in this spot. Honorable mentions: Kelce's Wildest Dream Team left Skattebo (19.1) and Dowdle (14.6) on the bench, a 17.6-point swing in a 6.82-point loss. The Lambs left Pollard (36.5) and Stevenson (22.5) on the bench, a 51.4-point swing, and won anyway." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Chiefs D/ST — MINUS 1.0", "note": "Last week the Chiefs scored 14.0 and I called it a plot twist. This week they went to minus 1.0. The Texans and Jets both gave 0.0. The Texans' run so far: -4, 15, -2, 0." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Jameson Williams — 26.1", "note": "Projected for 10.8 and scored 26.1 out of the FLEX. That helped end AllInTheTush's five-game losing streak." }
+  ],
+  "momentOfWeek": {
+    "text": "Silence of the CeeDee Lambs 126.72, Champ 🏆 126.62. Week 3 was decided by 0.48, Week 6 by 0.34, and now Week 7 by 0.10. The Lambs had Tony Pollard (36.5) and Rhamondre Stevenson (22.5) on the bench while Jaylin Noel gave 1.7 and Derrick Henry 5.9, and their defense went negative. They won anyway. The Champ had Darius Cooper's 2.7 on the bench behind Jalen Coker's 1.9. That's eight-tenths of a point, a single short catch, and it was the difference. The team that blundered by 51 points won. The team that blundered by 0.8 lost.",
+    "attribution": "— from the film room, Coach Reinebold"
+  },
+  "powerRankings": [
+    { "rank": 1,  "team": "Questionable or Kicked",       "points": 154.28, "record": "5-2", "take": "Two straight week-highs, three straight wins, and the first team past 1,000 points (1,052.48). This is the best team in the league right now." },
+    { "rank": 2,  "team": "Silence of the CeeDee Lambs",  "points": 126.72, "record": "5-2", "take": "Won by 0.10 with 59 points on the bench. Get the lineup right and this team is scary." },
+    { "rank": 3,  "team": "Major Tuddy",                  "points": 106.32, "record": "5-2", "take": "Five-game streak over, with Cook on bye and Bernard flopping in the lineup. Still 5-2 and in the three-way tie at the top." },
+    { "rank": 4,  "team": "Cracked Out Uncle",            "points": 130.76, "record": "4-3", "take": "Four straight wins. Went from cursed to clutch to one game off the lead." },
+    { "rank": 5,  "team": "Bang average",                 "points": 113.82, "record": "3-4", "take": "Second in points scored (954.10) but back under .500 after a 5.42 at QB. The record is worse than the team." },
+    { "rank": 6,  "team": "Kelce's Wildest Dream Team",   "points": 123.94, "record": "3-4", "take": "Lost by 6.82 with 33.7 points on the bench. Starting the right players would have won it." },
+    { "rank": 7,  "team": "False Hope",                   "points": 125.1,  "record": "3-4", "take": "Losing streak over. CMC keeps delivering and the team is back in the 3-4 pile." },
+    { "rank": 8,  "team": "Champ 🏆",                     "points": 126.62, "record": "3-4", "take": "Lost by 0.10 with the winning points on the bench. Two straight losses and two straight Bench Blunders." },
+    { "rank": 9,  "team": "AllInTheTush",                 "points": 130.22, "record": "2-5", "take": "Five-game skid over. 901 points scored but 994 allowed, so the bad luck has been real. Chapter six is a win." },
+    { "rank": 10, "team": "Mauled by the Panthers",       "points": 98.8,   "record": "2-5", "take": "Four straight losses, the week's lowest score, and another all-zero bench. Mauled, dragged, and left in the long grass." }
+  ],
+  "lastWord": "That's Week 7, gang. We learned that 0.34 wasn't the floor after all, that you can leave 59 points on the bench and still win, and that you can lose by 0.10 because of a backup receiver. The mascot's streak is done, and Questionable or Kicked, the Lambs and Major Tuddy are all tied at 5-2. Cracked Out Uncle is 4-3 and coming fast. Four teams are stuck at 3-4, and AllInTheTush finally won one. Set your lineups, check your byes, and look at your bench before kickoff. That tenth of a point might be sitting on it. Reinebold out.",
+  "footerTagline": "\"The bench doesn't score. Unless you put it in the game.\""
+}
