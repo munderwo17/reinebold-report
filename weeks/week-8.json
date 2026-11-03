@@ -1,0 +1,76 @@
+{
+  "week": 8,
+  "title": "The Reinebold Report",
+  "subtitle": "\"Thirty minutes in, he waved the white flag. Four quarters later he'd hung 177.98 on the board. Never surrender, gang. Not even when you want to.\"",
+  "tagline": "Week 8 — The Recap Nobody Asked For",
+  "author": "Jeff Reinebold",
+  "lede": "Gather round, gang. This week Questionable or Kicked conceded defeat half an hour into the matchup, then posted 177.98, the highest score anybody has put up all season. The Lambs scored 165.34 and lost, with the winning points sitting on their bench again. Cracked Out Uncle is literally flying high, Major Tuddy dropped a second straight, the Dingos (formerly Mauled) finally won one, and AllIGoneToPot lived up to the new name with a record low 59.7. Questionable or Kicked sits alone at 6-2, and three teams are tied at 5-3 behind them. Chalk's in my hand, let's roll the tape.",
+  "matchups": [
+    {
+      "winner": { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "6-2", "points": 177.98 },
+      "loser":  { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "5-3", "points": 165.34 },
+      "recap": "The shootout of the season. Questionable or Kicked hung 177.98, the highest score of the year and a third straight week-high. Joe Burrow (39.48) was the best player in the league, D'Andre Swift added 27.9, Jaxon Smith-Njigba 23.8, and Harold Fannin Jr. gave 23.4 from the TE spot on a projection of 8.9. The Commanders D/ST chipped in 14.0, and Jason Myers kicking 2.0 was the only soft spot. The Lambs scored 165.34, more than any other team this week, behind Ja'Marr Chase (31.1), Tony Pollard (28.7, started this time), Braelon Allen (23.3), the Jaguars D/ST (21.0) and Trey McBride (20.2). Then there's the WR slot: Omar Cooper Jr. gave 0.0 while Luther Burden III scored 18.6 on the bench. That swap was worth 18.6. They lost by 12.64.",
+      "trashTalk": "Thirty minutes into the week, Questionable or Kicked was already writing the concession speech. Then they scored 177.98, the most anybody's scored all season. That's a coach forfeiting at the coin toss and winning by two scores. Next time let the game reach halftime before you call the bus. Silence of the CeeDee Lambs, last week the bench didn't cost you. This week it did.",
+      "studs": ["Joe Burrow 39.48", "Ja'Marr Chase 31.1", "Tony Pollard 28.7", "D'Andre Swift 27.9"],
+      "duds": ["Omar Cooper Jr. 0.0", "Jason Myers 2.0", "Jared Goff 9.04", "Ashton Jeanty 10.3"]
+    },
+    {
+      "winner": { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "5-3", "points": 151.58 },
+      "loser":  { "team": "Champ 🏆", "manager": "Tom Needham", "record": "3-5", "points": 122.46 },
+      "recap": "Five straight for the Uncle. Tee Higgins (37.5) was the second-best starter of the week, Chuba Hubbard (24.9), Jaylen Warren (21.3) and Matthew Golden (20.9) piled on, and Jayden Daniels (14.98) was back from bye. Drake London (1.8) and Jonathan Taylor (6.7) barely showed up, and Michael Wilson (26.8) and Rashee Rice (18.3) sat on the bench, so this could've been uglier. The Champ got 26.56 from Josh Allen, 23.2 from Josh Jacobs and 16.0 from the Steelers D/ST, but Will Reichard kicked 0.0, Tyler Warren gave 5.8 and Quinshon Judkins 6.9. Caleb Douglas (8.3) on the bench beat Dallas Goedert (7.2) at FLEX by 1.1, which didn't matter in a 29.12-point loss.",
+      "trashTalk": "Cracked Out Uncle left 45 points on the bench and still won by 29. That's not a hot streak, that's a forest fire. Champ 🏆 has lost three straight and the kicker went 0.0. The trophy emoji is a participation ribbon now.",
+      "studs": ["Tee Higgins 37.5", "Josh Allen 26.56", "Chuba Hubbard 24.9", "Josh Jacobs 23.2"],
+      "duds": ["Will Reichard 0.0", "Drake London 1.8", "Tyler Warren 5.8", "Jonathan Taylor 6.7"]
+    },
+    {
+      "winner": { "team": "False Hope", "manager": "Matt Thomas", "record": "4-4", "points": 136.2 },
+      "loser":  { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "5-3", "points": 118.48 },
+      "recap": "False Hope made it two straight, and did it with Christian McCaffrey on bye. Trevor Lawrence (19.4) was back at QB, Christian Watson and Tucker Kraft each scored 17.3, DJ Moore 16.6 and Garrett Wilson 14.3. Every starter hit double figures except the Broncos D/ST (1.0). Jonah Coleman scored 20.4 on the bench, more than anyone they started. Major Tuddy got 28.2 from Brock Bowers and 18.1 from James Cook III back off bye, but CeeDee Lamb gave 12.8 on a 20.1 projection, Caleb Williams 13.98, Parker Washington 3.6 and the Bengals D/ST 2.0. KC Concepcion's 6.7 on the bench would have added 3.1 over Washington, nowhere near the 17.72 margin.",
+      "trashTalk": "Major Tuddy won five straight and has now lost two straight. The horseshoe didn't just get confiscated, it got melted down. False Hope beat them with CMC in street clothes. That's not false hope anymore. That's a .500 record.",
+      "studs": ["Brock Bowers 28.2", "Trevor Lawrence 19.4", "James Cook III 18.1", "Christian Watson 17.3"],
+      "duds": ["Broncos D/ST 1.0", "Bengals D/ST 2.0", "Parker Washington 3.6", "Cam Little 6.0"]
+    },
+    {
+      "winner": { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "4-4", "points": 114.36 },
+      "loser":  { "team": "Bang average", "manager": "Josh Horton", "record": "3-5", "points": 106.06 },
+      "recap": "The closest game of the week, by 8.30. Jahmyr Gibbs (24.8) and Drake Maye (22.46) led Kelce's Wildest Dream Team, DeMario Douglas (16.6) and T.J. Hockenson (15.8 out of the FLEX) helped, and Rico Dowdle got the start this time and gave 11.6. Spencer Shrader kicked 1.0, J.K. Dobbins gave 1.3 and Xavier Worthy 4.3. Bang average got 25.0 from Puka Nacua and 21.0 from Bucky Irving, but Kyle Pitts Sr. gave 2.6, the Seahawks D/ST 1.0 and Emanuel Wilson 0.0 out of the FLEX. Nico Collins, George Kittle and Tyreek Hill all sat on the bench with 0.0, so there was no swap to be had.",
+      "trashTalk": "Kelce's Wildest Dream Team started the right running back for once and won. Who knew? Bang average has a FLEX that scored zero and a bench that scored zero. That's not Bang average. That's Bang on empty.",
+      "studs": ["Puka Nacua 25.0", "Jahmyr Gibbs 24.8", "Drake Maye 22.46", "Bucky Irving 21.0"],
+      "duds": ["Emanuel Wilson 0.0", "Spencer Shrader 1.0", "Seahawks D/ST 1.0", "J.K. Dobbins 1.3"]
+    },
+    {
+      "winner": { "team": "Done Dingos", "manager": "Paul Anderson", "record": "3-5", "points": 116.0 },
+      "loser":  { "team": "AllIGoneToPot", "manager": "William Smith", "record": "2-6", "points": 59.7 },
+      "recap": "New name, new result. Done Dingos (formerly Mauled by the Panthers) ended a four-game skid, with Lamar Jackson giving 0.0 at QB. Bhayshul Tuten scored 29.9 from the RB/WR slot on a 14.6 projection, Chase Brown added 16.1, Tyler Bass kicked 16.0, and Amon-Ra St. Brown (12.6), Makai Lemon (11.7) and the Rams D/ST (11.0) chipped in. AllIGoneToPot scored 59.7, the week-low by 46 points and a new season low record. Zay Flowers and Tre Tucker both gave 0.0, DK Metcalf 1.4, Jeremiyah Love 2.3 and Bijan Robinson 7.6, so Dak Prescott (19.8) was the top scorer. Jameson Williams (17.0) and Keenan Allen (13.7) sat on the bench, a 30.7-point swing that still wouldn't have closed a 56.3-point gap.",
+      "trashTalk": "AllIGoneToPot. You named it, you lived it. 59.7 points with two zeros in the lineup. Done Dingos started a quarterback who scored zero and still won by 56. Turns out the Dingos weren't done. They were just resting.",
+      "studs": ["Bhayshul Tuten 29.9", "Dak Prescott 19.8", "Jameson Williams 17.0", "Chase Brown 16.1"],
+      "duds": ["Lamar Jackson 0.0", "Zay Flowers 0.0", "Tre Tucker 0.0", "DK Metcalf 1.4"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Joe Burrow — 39.48", "note": "Projected for 22.9 and nearly doubled it. The top starter of the week, in the highest-scoring game of the season. Tee Higgins (37.5) was close behind." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "D'Andre Swift — 27.9", "note": "Projected for 14.7 and nearly doubled it. In a game decided by 12.64, those extra points mattered." },
+    { "icon": "💤", "label": "Bust of the Week", "value": "Lamar Jackson — 0.0", "note": "Projected for 22.2, started at QB, scored nothing. The Dingos won by 56 anyway, which says plenty about the opponent. Honorable mentions: Zay Flowers (0.0 on a 20.1 projection) and Drake London (1.8 on 17.9)." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "Silence of the CeeDee Lambs", "note": "Started Omar Cooper Jr. (0.0) at WR while Luther Burden III scored 18.6 on the bench. That's a legal WR swap worth 18.6, and they lost by 12.64. Last week they left 59 on the bench and got away with it. This week the bench sent the bill. Honorable mention: AllIGoneToPot left Jameson Williams (17.0) and Keenan Allen (13.7) on the bench behind two zeros, a 30.7-point swing in a 56.3-point loss." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Seahawks D/ST — 1.0", "note": "In the closest game of the week, decided by 8.30. The Broncos D/ST also gave 1.0, and the Bengals and Browns gave 2.0 each. The Jaguars, who went -2.0 in Week 6, put up 21.0 for the Lambs in a losing cause." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Bhayshul Tuten — 29.9", "note": "Projected for 14.6 and more than doubled it, covering for a 0.0 at QB and ending the Dingos' four-game losing streak. Honorable mention: Harold Fannin Jr. scored 23.4 at TE on a projection of 8.9." }
+  ],
+  "momentOfWeek": {
+    "text": "Half an hour into Week 8, the Questionable or Kicked front office had seen enough and conceded. By the final play they'd scored 177.98, the highest total in the league this season. Burrow went for 39.48, Swift 27.9, JSN 23.8, and a backup tight end projected for 8.9 went for 23.4. The Lambs scored 165.34, a total that would have beaten all four other teams that won this week, and lost anyway because Luther Burden III's 18.6 was on the bench behind a 0.0. Combined, these two put up 343.32 points. One team gave up before it started. The other never got its best players on the field.",
+    "attribution": "— from the film room, Coach Reinebold"
+  },
+  "powerRankings": [
+    { "rank": 1,  "team": "Questionable or Kicked",       "points": 177.98, "record": "6-2", "take": "Season-high score, three straight week-highs, four straight wins and 1,230.46 points. Alone in first. Maybe stop conceding." },
+    { "rank": 2,  "team": "Cracked Out Uncle",            "points": 151.58, "record": "5-3", "take": "Five straight wins and second in points scored. Allowed the most points in the league (1,118.82) and keeps winning anyway." },
+    { "rank": 3,  "team": "Silence of the CeeDee Lambs",  "points": 165.34, "record": "5-3", "take": "Second-highest score of the week and a loss. The talent is real. The lineup choices keep costing them." },
+    { "rank": 4,  "team": "Major Tuddy",                  "points": 118.48, "record": "5-3", "take": "Two straight losses after five straight wins. Bowers did his job, Lamb and the D/ST didn't. Still tied for second." },
+    { "rank": 5,  "team": "False Hope",                   "points": 136.2,  "record": "4-4", "take": "Two straight wins without needing CMC. Back to .500 and one game off the 5-3 pack." },
+    { "rank": 6,  "team": "Kelce's Wildest Dream Team",   "points": 114.36, "record": "4-4", "take": "Got the lineup right and won the closest game of the week. Back to .500." },
+    { "rank": 7,  "team": "Bang average",                 "points": 106.06, "record": "3-5", "take": "Fifth in points scored (1,060.16) but two straight losses. A zero at FLEX and a bench full of zeros." },
+    { "rank": 8,  "team": "Champ 🏆",                     "points": 122.46, "record": "3-5", "take": "Three straight losses and a kicker who scored nothing. The crown is still on the floor." },
+    { "rank": 9,  "team": "Done Dingos",                  "points": 116.0,  "record": "3-5", "take": "New name, four-game skid over, and they won with a zero at QB. Out of the basement." },
+    { "rank": 10, "team": "AllIGoneToPot",                "points": 59.7,   "record": "2-6", "take": "59.7 points, two zeros in the lineup, 30.7 on the bench. The name change was a prophecy." }
+  ],
+  "lastWord": "That's Week 8, gang. We learned you should never concede after 30 minutes, that 165 points can lose, and that 59.7 is possible. Questionable or Kicked is alone at the top at 6-2, Cracked Out Uncle has won five straight, and the Lambs and Major Tuddy are with him at 5-3. False Hope and Kelce's are back to .500, and the Dingos are out of last place. Set your lineups, check your byes, and look at your bench before kickoff. And whatever happens in the first half hour, don't wave the white flag. Reinebold out.",
+  "footerTagline": "\"You can't win it in the first half hour. Turns out you can't lose it there either.\""
+}
