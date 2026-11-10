@@ -1,0 +1,76 @@
+{
+  "week": 9,
+  "title": "The Reinebold Report",
+  "subtitle": "\"Twelve points on the bench, lost by twelve. I've seen better decision-making from a sideline Gatorade bucket, gang.\"",
+  "tagline": "Week 9 — The Recap Nobody Asked For (And Somebody's Gonna Regret Reading)",
+  "author": "Jeff Reinebold",
+  "lede": "Pull up a chair, gang, and lock the doors, because this week got ugly. Questionable or Kicked walked into the first-place game, left 12.7 points on the bench, and lost by 12.42. That isn't a loss, it's a confession. Cracked Out Uncle benched the best quarterback in the league and won anyway. Six straight. Somebody check that man's lineup for performance-enhancing luck. Bang average beat Champ 🏆 by 84.48, the biggest beatdown of the season, and the Champ scored 76.46, which is a number I'd expect from a team that forgot it had a game. Kelce's Wildest Dream Team lost to a team that started Travis Kelce. You couldn't make it up. Four teams are tied at 6-3, the bottom three are tied at 3-6, and nobody is safe. Chalk's in my hand, the film's loaded, and I'm not cutting anything. Let's roll the tape.",
+  "matchups": [
+    {
+      "winner": { "team": "Cracked Out Uncle", "manager": "Ben Lawton", "record": "6-3", "points": 131.06 },
+      "loser":  { "team": "Questionable or Kicked", "manager": "Liam Towers", "record": "6-3", "points": 118.64 },
+      "recap": "First place against the hottest team in the league, and first place blinked. Cracked Out Uncle made it six straight behind Matthew Golden, who scored 32.4 out of the FLEX on a 17.3 projection. Tee Higgins added 20.2, Jayden Daniels 14.56 and Chuba Hubbard 13.6. Jordan Love scored 36.18 on the bench, the best quarterback score in the entire league, and the Uncle didn't even need him. One QB per lineup, so it's legal, it's just disrespectful to the rest of us. Questionable or Kicked got 29.54 from Joe Burrow and 15.0 from the Bills D/ST, then watched D'Andre Swift give 3.1 on an 18.6 projection, Ashton Jeanty 7.0 and Stefon Diggs 8.1. Meanwhile Rome Odunze scored 16.0 on the bench and Alvin Kamara 7.9. Odunze over Diggs is +7.9 and Kamara over Swift is +4.8. That's 12.7 points. They lost by 12.42. The win was sitting right there in sweatpants.",
+      "trashTalk": "Questionable or Kicked, last week you quit after 30 minutes and won. This week you actually tried and lost the game on your own bench. The lesson here is that you're dangerous when you're not paying attention. Cracked Out Uncle left 36 points of quarterback in a folding chair and still won. Six straight. That's not a team anymore, that's a cult, and the rest of this league keeps showing up for the meetings.",
+      "studs": ["Matthew Golden 32.4", "Joe Burrow 29.54", "Tee Higgins 20.2", "Isaiah Likely 16.3"],
+      "duds": ["Ryan Fitzgerald 2.0", "D'Andre Swift 3.1", "Jason Myers 6.0", "Ashton Jeanty 7.0"]
+    },
+    {
+      "winner": { "team": "Bang average", "manager": "Josh Horton", "record": "4-5", "points": 160.94 },
+      "loser":  { "team": "Champ 🏆", "manager": "Tom Needham", "record": "3-6", "points": 76.46 },
+      "recap": "Somebody call it. The biggest margin of the season, 84.48, and it wasn't close at any point on any day of the week. Bang average scored the week-high 160.94. Kenneth Walker III (36.3) and Puka Nacua (35.0) were the top two starters in the whole league, Bucky Irving added 28.5, and Nico Collins came off a bye to give 15.5. George Pickens gave 0.0 and Jaylen Waddle 3.2, and they still nearly doubled the other team. Champ 🏆 scored 76.46, their worst of the season and the third-lowest score anybody has posted all year. Josh Jacobs gave 0.5 on a 16.6 projection after an early injury, a week after scoring 23.2. Quinshon Judkins gave 5.5, Devaughn Vele 3.7, and the top scorer was Josh Allen with a limp 12.86. Dallas Goedert scored 10.0 on the bench, which would've added 6.3 over Vele at FLEX and cut the loss to a mere 78.",
+      "trashTalk": "Bang average put up 160 and stopped being average about three touchdowns in. Champ 🏆, four straight losses and 76 points. That trophy emoji needs to be repossessed. The Chiefs defense scored 12 and was your second-best player. When your defense is outscoring your running backs, the problem isn't the matchup, it's the whole operation.",
+      "studs": ["Kenneth Walker III 36.3", "Puka Nacua 35.0", "Bucky Irving 28.5", "Nico Collins 15.5"],
+      "duds": ["George Pickens 0.0", "Josh Jacobs 0.5", "Jaylen Waddle 3.2", "Devaughn Vele 3.7"]
+    },
+    {
+      "winner": { "team": "Silence of the CeeDee Lambs", "manager": "Alex Farnell", "record": "6-3", "points": 146.88 },
+      "loser":  { "team": "False Hope", "manager": "Matt Thomas", "record": "4-5", "points": 120.48 },
+      "recap": "Breaking news: the Lambs started their good players, and they won. Luther Burden III finally got off the bench and scored 20.7. Omar Cooper Jr., last week's 0.0, gave 13.8 at FLEX. Ja'Marr Chase led with 31.5, and Denzel Boston (15.8), Jake Bates (15.0) and Rhamondre Stevenson (14.8) piled on. They won by 26.4 with Jared Goff giving 5.3 on a 19.4 projection and Derrick Henry 5.58, so imagine if the quarterback had shown up. False Hope got CMC back (22.7), Christian Watson scored 30.1 on a 15.8 projection, and Jonah Coleman finally started and gave 18.8. Then Ladd McConkey gave 0.0 injured and Tucker Kraft 1.9, which is two lineup spots doing the work of a traffic cone. Jordyn Tyson (5.0) and Saquon Barkley (8.2) on the bench were worth 6.6 in legal swaps, not nearly enough to save them.",
+      "trashTalk": "Silence of the CeeDee Lambs put their best players on the field and won. Write it on the whiteboard, frame it, hang it in the hall. False Hope lost by 26. You can't spell False Hope without a zero and a 1.9 in the lineup. The name was never a joke. It was a warning.",
+      "studs": ["Ja'Marr Chase 31.5", "Christian Watson 30.1", "Christian McCaffrey 22.7", "Luther Burden III 20.7"],
+      "duds": ["Ladd McConkey 0.0", "Tucker Kraft 1.9", "Jared Goff 5.3", "Derrick Henry 5.58"]
+    },
+    {
+      "winner": { "team": "Major Tuddy", "manager": "Michael Underwood", "record": "6-3", "points": 151.46 },
+      "loser":  { "team": "Done Dingos", "manager": "Paul Anderson", "record": "3-6", "points": 127.68 },
+      "recap": "Major Tuddy stopped the bleeding, and CeeDee Lamb remembered he's CeeDee Lamb. After 12.8 last week, he dropped 33.5. Brock Bowers added 22.3, Cam Little kicked 17.0, James Cook III gave 16.7, Tetairoa McMillan 15.6, and Parker Washington went from 3.6 to 14.1. Rachaad White (6.9) and Tyler Allgeier (6.6) were dead weight, and KC Concepcion scored 18.8 on the bench, which would've added 11.9 over White at FLEX. A 23.78-point win covers a lot of sins. The Dingos started Patrick Mahomes with Lamar Jackson on IR, which sounds like an upgrade until Mahomes gives you 16.48. Javonte Williams scored 22.4, Ka'imi Fairbairn kicked 17.0 and Amon-Ra St. Brown added 16.6, but Bhayshul Tuten went from 29.9 hero to 8.9, and Mike Gesicki's 3.1 at TE was barely a pulse.",
+      "trashTalk": "Done Dingos, you swapped one MVP quarterback for another and still lost. Last week I said the Dingos weren't done, they were resting. I take it back. They're done. Major Tuddy is back in the four-way tie, and the horseshoe has been recovered from the lost and found.",
+      "studs": ["CeeDee Lamb 33.5", "Brock Bowers 22.3", "Javonte Williams 22.4", "Cam Little 17.0"],
+      "duds": ["Mike Gesicki 3.1", "Tyler Allgeier 6.6", "Rachaad White 6.9", "Bhayshul Tuten 8.9"]
+    },
+    {
+      "winner": { "team": "AllIGoneToPot", "manager": "William Smith", "record": "3-6", "points": 126.98 },
+      "loser":  { "team": "Kelce's Wildest Dream Team", "manager": "Ryan Grace", "record": "4-5", "points": 118.26 },
+      "recap": "The closest game of the week, by 8.72, and the most humiliating. AllIGoneToPot went from a pathetic 59.7 to 126.98. Bijan Robinson scored 26.7 after a 7.6, Brock Purdy gave 25.28 (started over Dak Prescott's 19.5, the right call for once), and Travis Kelce scored 17.3 at TE against the team that named itself after him. Dominic Zvada kicked 17.0. Tre Tucker's 9.5 sat behind Jameson Williams' 5.0, a 4.5-point swing nobody will remember because they won. Kelce's Wildest Dream Team got 18.26 from Drake Maye, 16.8 from Chris Olave and 16.0 from Spencer Shrader, who kicked like a professional. But Jahmyr Gibbs gave 13.4 on a 26.5 projection, Devin Singletary 5.9 and Omarion Hampton 6.0. Kyle Pitts Sr. started at FLEX and scored 5.3 while T.J. Hockenson sat on 7.3. That's a 2.0 swing in an 8.72-point loss. Not the difference, just an insult on top of the injury.",
+      "trashTalk": "Kelce's Wildest Dream Team got beaten by Travis Kelce. Your own namesake walked into your house and robbed you. That isn't a dream, that's a restraining order. AllIGoneToPot, one week after scoring 59.7, you turned up with 126. Turns out somebody found the stash behind the sofa.",
+      "studs": ["Bijan Robinson 26.7", "Brock Purdy 25.28", "Drake Maye 18.26", "Travis Kelce 17.3"],
+      "duds": ["Jameson Williams 5.0", "Kyle Pitts Sr. 5.3", "Zay Flowers 5.3", "Devin Singletary 5.9"]
+    }
+  ],
+  "awards": [
+    { "icon": "🏈", "label": "Stud of the Week", "value": "Kenneth Walker III — 36.3", "note": "Projected for 23.0, then ran through it like it owed him money. Top starter in the league, in the biggest beatdown of the season. Puka Nacua (35.0) was right behind him on the same team. Unfair." },
+    { "icon": "🐎", "label": "Workhorse Award", "value": "Bucky Irving — 28.5", "note": "Projected for 15.6 and nearly doubled it. The third Bang average starter over 28 points in a week where the Champ couldn't get one guy over 13." },
+    { "icon": "💤", "label": "Bust of the Week", "value": "Josh Jacobs — 0.5", "note": "Projected for 16.6. Got injured, delivered half a point. Scored 23.2 last week, then showed up this week like he'd been told the game was optional. Honorable mentions for the walk of shame: D'Andre Swift (3.1 on 18.6), Jared Goff (5.3 on 19.4) and Jahmyr Gibbs (13.4 on 26.5)." },
+    { "icon": "🤦", "label": "Bench Blunder", "value": "Questionable or Kicked", "note": "Rome Odunze scored 16.0 on the bench while Stefon Diggs gave 8.1 at WR (+7.9). Alvin Kamara scored 7.9 on the bench while D'Andre Swift gave 3.1 at RB (+4.8). That's 12.7 points in legal swaps, in a 12.42-point loss. Set the right lineup and you win by 0.28 and stay alone in first. Instead you're in a four-way tie and every one of those other three teams is laughing at you. Honorable mention: Major Tuddy sat KC Concepcion (18.8) behind Rachaad White (6.9) at FLEX, an 11.9 swing they got away with." },
+    { "icon": "🛡️", "label": "Defensive Disaster", "value": "Vikings D/ST — 6.0", "note": "Tied with the Broncos D/ST at 6.0. Every defense in the league scored at least 6 this week, so this is the softest Defensive Disaster of the season. Barely a disaster. More of a mild inconvenience. The Texans, the most chaotic defense in this league, gave 12.0. Don't get used to it." },
+    { "icon": "🚀", "label": "Surprise of the Week", "value": "Matthew Golden — 32.4", "note": "Projected for 17.3, then nearly doubled it out of the FLEX in a 12.42-point win over first place. He outscored the margin by himself. Six straight for the Uncle. Honorable mention: Christian Watson scored 30.1 on a 15.8 projection, in a losing cause." }
+  ],
+  "momentOfWeek": {
+  "text": "Picture it, gang. You name your whole franchise after Travis Kelce. That's the dream, it's right there on the letterhead. Then Week 9 comes around and the man himself lines up against you, wearing AllIGoneToPot colours, a team that scored 59.7 the week before. Projected for 10.6, Kelce drops 17.3. Your own tight end, Colston Loveland, gives 9.4. Your stud Jahmyr Gibbs, projected for 26.5, gives 13.4. Final margin: 8.72, the closest game of the week. Kelce outscored your tight end by 7.9 by himself. Your namesake walked into your house, ate your food, and left with the win. AllIGoneToPot more than doubled their score from the week before, and Kelce's Wildest Dream Team fell to 4-5, beaten by the guy on their own banner. Some dreams come true. This one turned around and sacked you.",
+  "attribution": "— from the film room, Coach Reinebold"
+},
+  "powerRankings": [
+    { "rank": 1,  "team": "Cracked Out Uncle",            "points": 131.06, "record": "6-3", "take": "Six straight wins, beat first place head-to-head, and allowed the most points in the league (1,237.46). Can't defend, doesn't care, keeps winning." },
+    { "rank": 2,  "team": "Questionable or Kicked",       "points": 118.64, "record": "6-3", "take": "Still first on tiebreak and leads the league in points by 114.4. Lost the big game on their own bench. Embarrassing, but still scary." },
+    { "rank": 3,  "team": "Silence of the CeeDee Lambs",  "points": 146.88, "record": "6-3", "take": "Started Burden, won by 26, third in points (1,228.48). It's almost like the lineup matters." },
+    { "rank": 4,  "team": "Major Tuddy",                  "points": 151.46, "record": "6-3", "take": "Two-game skid over, Lamb back to 33.5, back in the four-way tie. The horseshoe has been located." },
+    { "rank": 5,  "team": "Bang average",                 "points": 160.94, "record": "4-5", "take": "Week-high 160.94 and an 84-point demolition. Fourth in points scored (1,221.1) and still 4-5. The most dangerous losing record in the league." },
+    { "rank": 6,  "team": "False Hope",                   "points": 120.48, "record": "4-5", "take": "Got CMC back and lost by 26. A zero and a 1.9 in the lineup. The name keeps writing itself." },
+    { "rank": 7,  "team": "Kelce's Wildest Dream Team",   "points": 118.26, "record": "4-5", "take": "Lost to a team starting Travis Kelce. Gibbs went missing. A dream team with a nightmare week." },
+    { "rank": 8,  "team": "AllIGoneToPot",                "points": 126.98, "record": "3-6", "take": "From 59.7 to 126.98. Still last on tiebreak, still the fewest points in the league by 0.30. One good week doesn't clear the record." },
+    { "rank": 9,  "team": "Done Dingos",                  "points": 127.68, "record": "3-6", "take": "Swapped Lamar for Mahomes and still lost. The new name was a promise and they're keeping it." },
+    { "rank": 10, "team": "Champ 🏆",                     "points": 76.46,  "record": "3-6", "take": "Four straight losses, a season-low 76.46 and the worst beatdown of the year. No starter topped 13. The trophy emoji has filed for divorce." }
+  ],
+  "lastWord": "That's Week 9, gang, and what a mess it was. One team lost first place because of their own bench. One team benched the best quarterback in the league and didn't notice. One team named after Travis Kelce lost to Travis Kelce. And one team called Champ scored 76 points and is now ninth. Four teams at 6-3, three teams at 4-5, three teams at 3-6, and absolutely nobody can relax. Set your lineups. Look at your bench. Then look at it again. If you lose by twelve with sixteen sitting next to you, I'll be right here with the chalk and the replay. Reinebold out.",
+  "footerTagline": "\"The bench doesn't score points. It just keeps the receipts.\""
+}
